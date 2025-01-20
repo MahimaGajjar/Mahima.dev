@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+Hi there 👋, I'm Mahima Gajjar, a passionate self-taught Software Engineer. You are exploring my personal website repository. The website is built with React JS and hosted on Vercel.
+
+
+
+
+# Usage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
