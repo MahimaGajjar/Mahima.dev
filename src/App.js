@@ -1,14 +1,9 @@
-import './App.css';
-
+import React from "react";
+import HomePage from "./components/Home";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-       
-          Hello
-        
-      </header>
+    <div>
+      <HomePage />
     </div>
   );
 }
