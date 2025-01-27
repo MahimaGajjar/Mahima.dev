@@ -10,7 +10,930 @@ export const HomePage = () => {
     <>
       <div className="container">
         <div className="workexperience">
-          <WorkExperience />
+        <svg
+        id='e68ZndEqcxF1'
+        className='w-full lg:absolute bottom-0'
+        viewBox='0 0 455 512'
+        cached='false'
+      >
+        <g
+          id='e68ZndEqcxF2_ts'
+          transform='translate(159.889855,223.200948) scale(0,0)'
+        >
+          <g transform='translate(-150.210518,-169.627434)'>
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 119.945149)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 145.43027)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.419299 119.945149)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 119.945149)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 146.23014)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 146.23014)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 173.315001)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 172.515131)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.201859 172.515131)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.587939 172.515131)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.582368 146.23014)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.582368 200.109588)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 200.109588)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 200.109588)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.430441 200.109588)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 199.309718)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.201859 147.03001)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 120.309199)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.218317 119.945149)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 172.515131)'
+              fill='#207a70'
+              stroke='#000'
+            />
+          </g>
+        </g>
+        <g
+          id='e68ZndEqcxF23_ts'
+          transform='translate(310.593054,223.200948) scale(0,0)'
+        >
+          <g transform='translate(-150.210518,-169.627434)'>
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 119.145279)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 145.43027)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 120.791443)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 119.945149)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 146.23014)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 146.23014)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 173.361425)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.430441 172.515131)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 172.515131)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(195.031233 172.515131)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.582368 146.23014)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.587939 200.109588)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 200.109588)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 200.955882)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.430441 200.109588)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 199.309718)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.201859 147.076434)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 121.155493)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.223888 119.945149)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 172.561555)'
+              fill='#207a70'
+              stroke='#000'
+            />
+          </g>
+        </g>
+        <g
+          id='e68ZndEqcxF44_ts'
+          transform='translate(311.400408,348.20992) scale(0,0)'
+        >
+          <g transform='translate(-150.210518,-169.627434)'>
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 119.145279)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 145.43027)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 119.945149)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 119.945149)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 146.23014)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 146.23014)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 172.515131)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.430441 172.515131)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 172.515131)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.587939 172.515131)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.582368 146.23014)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.587939 200.109588)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 200.109588)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 200.109588)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.430441 200.109588)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 199.309718)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.201859 146.23014)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 120.309199)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.223888 119.945149)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 171.715261)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+          </g>
+        </g>
+        <g
+          id='e68ZndEqcxF65_ts'
+          transform='translate(160.333152,347.410049) scale(0,0)'
+        >
+          <g transform='translate(-150.210518,-169.627434)'>
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 119.145279)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.833089 145.43027)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 119.945149)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 119.945149)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.42487 146.23014)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.805379 146.23014)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 172.515131)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.430441 172.515131)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 172.515131)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.587939 172.515131)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.582368 146.23014)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.587939 200.109588)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 200.109588)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(139.81095 200.109588)'
+              fill='#207a70'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(112.430441 200.109588)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 199.309718)'
+              fill='#64e1d1'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.201859 146.23014)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(167.20743 120.309199)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(194.223888 119.945149)'
+              fill='#2a9d8f'
+              stroke='#000'
+            />
+            <rect
+              width='20'
+              height='20'
+              rx='0'
+              ry='0'
+              transform='translate(85.83866 171.715261)'
+              fill='#3ac6b5'
+              stroke='#000'
+            />
+          </g>
+        </g>
+        <g
+          id='e68ZndEqcxF86'
+          transform='translate(8.36678 48.86324)'
+          opacity='0'
+        >
+          <g
+            id='e68ZndEqcxF87_tr'
+            transform='translate(341.648742,398.036917) rotate(360)'
+          >
+            <polygon
+              points='34.5,10.52 38.691358,27.458014 54.549383,20.174174 43.91358,34.01347 59.5,41.865203 42.049383,42.180013 45.623457,59.26 34.5,45.81576 23.376543,59.26 26.950617,42.180013 9.5,41.865203 25.08642,34.01347 14.450617,20.174174 30.308642,27.458014 34.5,10.52'
+              transform='translate(-35.204326,-37.057694)'
+              fill='#e9c46a'
+              stroke='#000'
+            />
+          </g>
+          <g
+            id='e68ZndEqcxF88_tr'
+            transform='translate(87.145649,222.715121) rotate(0)'
+          >
+            <polygon
+              id='e68ZndEqcxF88'
+              points='29.5,10.52 32.853086,24.069716 45.539506,18.242943 37.030864,29.313812 49.5,35.594876 35.539506,35.846711 38.398766,49.51 29.5,38.75516 20.601234,49.51 23.460494,35.846711 9.5,35.594876 21.969136,29.313812 13.460494,18.242943 26.146914,24.069716 29.5,10.52'
+              transform='translate(-29.5,-30.015)'
+              fill='#e9c46a'
+              stroke='#000'
+            />
+          </g>
+          <path
+            id='e68ZndEqcxF89'
+            d='M43.5,48.5c-7.269841,5.777778-9.611111,10.460318-12.5,25-2.888889-14.539682-5.230159-19.222222-12.5-25c7.269841-5.777777,9.611111-10.460317,12.5-25c2.888889,14.539683,5.230159,19.222223,12.5,25Z'
+            transform='translate(75.686295 357.451792)'
+            fill='#94d1ee'
+            stroke='#000'
+          />
+          <g
+            id='e68ZndEqcxF90_tr'
+            transform='translate(45.433396,314.439505) rotate(0)'
+          >
+            <path
+              id='e68ZndEqcxF90'
+              d='M35.47,10.52L39.823982,26.158298L56.297299,19.433374L45.248827,32.210729L61.44,39.45997L43.312299,39.750623L47.025048,55.52L35.47,43.107387L23.914952,55.52L27.627701,39.750623L9.5,39.45997L25.691173,32.210729L14.642701,19.433374L31.116018,26.158298L35.47,10.52Z'
+              transform='translate(-35.47,-33.02)'
+              fill='#faaf66'
+              stroke='#000'
+            />
+          </g>
+          <g
+            id='e68ZndEqcxF91_tr'
+            transform='translate(402.534766,222.715121) rotate(-8.485073)'
+          >
+            <polygon
+              points='29.5,10.52 32.853086,24.069716 45.539506,18.242943 37.030864,29.313812 49.5,35.594876 35.539506,35.846711 38.398766,49.51 29.5,38.75516 20.601234,49.51 23.460494,35.846711 9.5,35.594876 21.969136,29.313812 13.460494,18.242943 26.146914,24.069716 29.5,10.52'
+              transform='translate(-29.5,-30.015)'
+              fill='#e76f51'
+              stroke='#000'
+            />
+          </g>
+          <path
+            id='e68ZndEqcxF92'
+            d='M38.5,43.5c-5.815873,4.622222-7.688889,8.368254-10,20-2.311111-11.631746-4.184127-15.377778-10-20c5.815873-4.622222,7.688889-8.368254,10-20c2.311111,11.631746,4.184127,15.377778,10,20Z'
+            transform='matrix(.983914 0.178642-.178642 0.983914 372.251049 310.482758)'
+            fill='#e76f51'
+            stroke='#000'
+          />
+          <path
+            id='e68ZndEqcxF93'
+            d='M38.5,43.5c-5.815873,4.622222-7.688889,8.368254-10,20-2.311111-11.631746-4.184127-15.377778-10-20c5.815873-4.622222,7.688889-8.368254,10-20c2.311111,11.631746,4.184127,15.377778,10,20Z'
+            transform='translate(36.640082 77.298643)'
+            fill='#e9c46a'
+            stroke='#000'
+          />
+          <path
+            id='e68ZndEqcxF94'
+            d='M43.5,48.5c-7.269841,5.777778-9.611111,10.460318-12.5,25-2.888889-14.539682-5.230159-19.222222-12.5-25c7.269841-5.777777,9.611111-10.460317,12.5-25c2.888889,14.539683,5.230159,19.222223,12.5,25Z'
+            transform='translate(157.963284 71.519473)'
+            fill='#e9c46a'
+            stroke='#000'
+          />
+          <path
+            id='e68ZndEqcxF95'
+            d='M43.5,48.5c-7.269841,5.777778-9.611111,10.460318-12.5,25-2.888889-14.539682-5.230159-19.222222-12.5-25c7.269841-5.777777,9.611111-10.460317,12.5-25c2.888889,14.539683,5.230159,19.222223,12.5,25Z'
+            transform='matrix(.967608-.252457 0.252457 0.967608 203.666518 310.477444)'
+            fill='#94d1ee'
+            stroke='#000'
+          />
+          <path
+            id='e68ZndEqcxF96'
+            d='M26,14L28.869231,22.069231L36.607692,18.392308L32.930769,26.130769L41,29L32.930769,31.869231L36.607692,39.607692L28.869231,35.930769L26,44L23.130769,35.930769L15.392308,39.607692L19.069231,31.869231L11,29L19.069231,26.130769L15.392308,18.392308L23.130769,22.069231L26,14Z'
+            transform='matrix(.984611 0.174761-.174761 0.984611 304.161163 67.30272)'
+            fill='#e76f51'
+            stroke='#000'
+          />
+          <path
+            id='e68ZndEqcxF97'
+            d='M26,14L28.869231,22.069231L36.607692,18.392308L32.930769,26.130769L41,29L32.930769,31.869231L36.607692,39.607692L28.869231,35.930769L26,44L23.130769,35.930769L15.392308,39.607692L19.069231,31.869231L11,29L19.069231,26.130769L15.392308,18.392308L23.130769,22.069231L26,14Z'
+            transform='translate(108.186295 396.816449)'
+            fill='#faaf66'
+            stroke='#000'
+          />
+          <g
+            id='e68ZndEqcxF98_tr'
+            transform='translate(109.186295,93.628666) rotate(0)'
+          >
+            <polygon
+              points='26,14 28.869231,22.069231 36.607692,18.392308 32.930769,26.130769 41,29 32.930769,31.869231 36.607692,39.607692 28.869231,35.930769 26,44 23.130769,35.930769 15.392308,39.607692 19.069231,31.869231 11,29 19.069231,26.130769 15.392308,18.392308 23.130769,22.069231 26,14'
+              transform='translate(-26,-29.614881)'
+              fill='#e76f51'
+              stroke='#000'
+            />
+          </g>
+          <circle
+            id='e68ZndEqcxF99'
+            r='5'
+            transform='translate(382.534766 164.340673)'
+            fill='#fff'
+            stroke='#000'
+          />
+          <circle
+            r='4'
+            transform='translate(135.566804 384.951792)'
+            fill='#94d1ee'
+            stroke='#000'
+          />
+          <circle
+            r='5'
+            transform='translate(320.03054 435.816449)'
+            fill='#fff'
+            stroke='#000'
+          />
+          <circle
+            r='5'
+            transform='translate(377.534766 385.951792)'
+            fill='#94d1ee'
+            stroke='#000'
+          />
+          <circle
+            r='2.5'
+            transform='translate(370.034766 428.316449)'
+            fill='#fff'
+            stroke='#000'
+          />
+          <circle
+            id='e68ZndEqcxF104'
+            r='5'
+            transform='translate(60.140082 358.229092)'
+            fill='#fff'
+            stroke='#000'
+          />
+          <circle
+            r='7.5'
+            transform='translate(299.321135 93.013785)'
+            fill='#94d1ee'
+            stroke='#000'
+          />
+          <circle
+            id='e68ZndEqcxF106'
+            r='7.5'
+            transform='translate(238.59892 237.44777)'
+            fill='#fada90'
+            stroke='#000'
+          />
+          <circle
+            r='4'
+            transform='translate(71.640082 72.013785)'
+            fill='#fff'
+            stroke='#000'
+          />
+        </g>
+      </svg>
         </div>
         <div className="projects">
           <svg
@@ -307,1001 +1230,1384 @@ export const HomePage = () => {
         </div>
         <div className="education">
           <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-full lg:absolute bottom-0"
-        id="eUbxc2KBHAG1"
-        viewBox="0 0 455 256"
-        cached="false"
-        // xmlns:bx="https://boxy-svg.com"
-      >
-        <defs>
-          <radialGradient
-            gradientUnits="userSpaceOnUse"
-            cx={72.648}
-            cy={110.337}
-            r={40}
-            id="gradient-3"
-            spreadMethod="pad"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full lg:absolute bottom-0"
+            id="eUbxc2KBHAG1"
+            viewBox="0 0 455 256"
+            cached="false"
+            // xmlns:bx="https://boxy-svg.com"
           >
-            <stop
-              offset={0}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-            <stop
-              offset={1}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-          </radialGradient>
-          <radialGradient
-            gradientUnits="userSpaceOnUse"
-            cx={52.648}
-            cy={102.587}
-            r={20}
-            id="gradient-4"
-            spreadMethod="pad"
-          >
-            <stop
-              offset={0}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-            <stop
-              offset={1}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-          </radialGradient>
-          <radialGradient
-            gradientUnits="userSpaceOnUse"
-            cx={118.171}
-            cy={191.99}
-            r={50.011}
-            id="gradient-5"
-            spreadMethod="pad"
-          >
-            <stop
-              offset={0}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-            <stop
-              offset={1}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-          </radialGradient>
-          <radialGradient
-            gradientUnits="userSpaceOnUse"
-            cx={0}
-            cy={0}
-            r={17.5}
-            id="gradient-1"
-          >
-            <stop
-              offset={0}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-            <stop
-              offset={1}
-              style={{
-                stopColor: "rgb(0% 0% 0%)",
-              }}
-            />
-          </radialGradient>
-        </defs>
-        <path
-          d="M 106.872 224.651 C 106.111 197.596 96.226 175.916 83.728 173.89 C 71.228 171.865 59.959 190.118 57.343 216.626 C 52.428 212.754 46.931 214.894 42.949 222.229 C 38.967 229.563 37.116 240.96 38.102 252.068 C 38.285 254.004 39.076 255.39 39.989 255.375 L 118.377 255.375 C 118.905 255.377 119.409 254.911 119.773 254.084 C 120.137 253.256 120.327 252.142 120.299 251.002 C 120.085 242.532 118.279 224.651 106.872 224.651 Z"
-          stroke="#000"
-          style={{
-            fill: "rgb(45, 158, 9)",
-          }}
-        />
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 60.989831, 163.950091)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            fill="#e9c46a"
-            stroke="#000"
-            ry={0}
-            rx={0}
-            transform="translate(97.5 176)"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <ellipse
-          rx={17.5}
-          ry={17.5}
-          transform="translate(234.347826 46.619825)"
-          style={{
-            stroke: "url(&quot",
-            fillRule: "evenodd",
-            paintOrder: "fill",
-            fill: "rgb(245, 182, 0)",
-          }}
-        />
-        <g transform="translate(-442.012952-75.039706)">
-          <g id="eUbxc2KBHAG10_to" transform="translate(562.451659,9.317477)">
+            <defs>
+              <radialGradient
+                gradientUnits="userSpaceOnUse"
+                cx={72.648}
+                cy={110.337}
+                r={40}
+                id="gradient-3"
+                spreadMethod="pad"
+              >
+                <stop
+                  offset={0}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+                <stop
+                  offset={1}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+              </radialGradient>
+              <radialGradient
+                gradientUnits="userSpaceOnUse"
+                cx={52.648}
+                cy={102.587}
+                r={20}
+                id="gradient-4"
+                spreadMethod="pad"
+              >
+                <stop
+                  offset={0}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+                <stop
+                  offset={1}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+              </radialGradient>
+              <radialGradient
+                gradientUnits="userSpaceOnUse"
+                cx={118.171}
+                cy={191.99}
+                r={50.011}
+                id="gradient-5"
+                spreadMethod="pad"
+              >
+                <stop
+                  offset={0}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+                <stop
+                  offset={1}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+              </radialGradient>
+              <radialGradient
+                gradientUnits="userSpaceOnUse"
+                cx={0}
+                cy={0}
+                r={17.5}
+                id="gradient-1"
+              >
+                <stop
+                  offset={0}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+                <stop
+                  offset={1}
+                  style={{
+                    stopColor: "rgb(0% 0% 0%)",
+                  }}
+                />
+              </radialGradient>
+            </defs>
             <path
-              d="M99.110816,112.531384c-1.408505.001042-2.808325.220589-4.149535.650809-3.644714-11.178819-14.200149-18.634402-25.952905-18.331221s-21.909848,8.293076-24.97349,19.644949c-.463019-.068658-.930247-.10507-1.398312-.108973-5.193729,0-9.833582,4.192425-9.987941,10.152631-.010611.33756.115455.665115.349634.908439s.556641.381818.894319.384099h77.512478c.359322-.002019.700397-.158591.936195-.429762s.343509-.630714.295651-.986884c-.882233-6.797862-6.672053-11.884824-13.526094-11.884087Z"
-              transform="translate(0,0)"
-              fill="#fff"
+              d="M 106.872 224.651 C 106.111 197.596 96.226 175.916 83.728 173.89 C 71.228 171.865 59.959 190.118 57.343 216.626 C 52.428 212.754 46.931 214.894 42.949 222.229 C 38.967 229.563 37.116 240.96 38.102 252.068 C 38.285 254.004 39.076 255.39 39.989 255.375 L 118.377 255.375 C 118.905 255.377 119.409 254.911 119.773 254.084 C 120.137 253.256 120.327 252.142 120.299 251.002 C 120.085 242.532 118.279 224.651 106.872 224.651 Z"
+              stroke="#000"
+              style={{
+                fill: "rgb(45, 158, 9)",
+              }}
+            />
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 60.989831, 163.950091)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                fill="#e9c46a"
+                stroke="#000"
+                ry={0}
+                rx={0}
+                transform="translate(97.5 176)"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <ellipse
+              rx={17.5}
+              ry={17.5}
+              transform="translate(234.347826 46.619825)"
               style={{
                 stroke: "url(&quot",
-                paintOrder: "fill markers",
+                fillRule: "evenodd",
+                paintOrder: "fill",
+                fill: "rgb(245, 182, 0)",
               }}
             />
-          </g>
-          <g id="eUbxc2KBHAG11_to" transform="translate(778.945551,21.607485)">
-            <path
-              d="M65.879427,103.683892c-.704252.000521-1.404162.110259-2.074767.3253-1.822357-5.587604-7.100075-9.31419-12.976454-9.162649s-10.954924,4.145198-12.486745,9.819301c-.23151-.034318-.465124-.052518-.699157-.054469-2.596864,0-4.916791,2.095535-4.99397,5.074675-.005306.168725.057727.33245.174817.454073s.27832.190847.447159.191987h38.756242c.179661-.001009.350198-.07927.468097-.214812s.171755-.315255.147826-.493282c-.441117-3.397833-3.336027-5.940492-6.763048-5.940124Z"
-              transform="translate(0,0)"
-              fill="#fff"
+            <g transform="translate(-442.012952-75.039706)">
+              <g
+                id="eUbxc2KBHAG10_to"
+                transform="translate(562.451659,9.317477)"
+              >
+                <path
+                  d="M99.110816,112.531384c-1.408505.001042-2.808325.220589-4.149535.650809-3.644714-11.178819-14.200149-18.634402-25.952905-18.331221s-21.909848,8.293076-24.97349,19.644949c-.463019-.068658-.930247-.10507-1.398312-.108973-5.193729,0-9.833582,4.192425-9.987941,10.152631-.010611.33756.115455.665115.349634.908439s.556641.381818.894319.384099h77.512478c.359322-.002019.700397-.158591.936195-.429762s.343509-.630714.295651-.986884c-.882233-6.797862-6.672053-11.884824-13.526094-11.884087Z"
+                  transform="translate(0,0)"
+                  fill="#fff"
+                  style={{
+                    stroke: "url(&quot",
+                    paintOrder: "fill markers",
+                  }}
+                />
+              </g>
+              <g
+                id="eUbxc2KBHAG11_to"
+                transform="translate(778.945551,21.607485)"
+              >
+                <path
+                  d="M65.879427,103.683892c-.704252.000521-1.404162.110259-2.074767.3253-1.822357-5.587604-7.100075-9.31419-12.976454-9.162649s-10.954924,4.145198-12.486745,9.819301c-.23151-.034318-.465124-.052518-.699157-.054469-2.596864,0-4.916791,2.095535-4.99397,5.074675-.005306.168725.057727.33245.174817.454073s.27832.190847.447159.191987h38.756242c.179661-.001009.350198-.07927.468097-.214812s.171755-.315255.147826-.493282c-.441117-3.397833-3.336027-5.940492-6.763048-5.940124Z"
+                  transform="translate(0,0)"
+                  fill="#fff"
+                  style={{
+                    stroke: "url(&quot",
+                    paintOrder: "fill markers",
+                  }}
+                />
+              </g>
+              <g
+                id="eUbxc2KBHAG12_to"
+                transform="translate(589.954996,-52.830984)"
+              >
+                <path
+                  d="M143.283934,194.703115c-6.460432-17.639128-24.643369-28.102589-43.139981-24.825114s-31.977429,19.351536-31.983953,38.136565c.000593,1.466736.085419,2.932227.254057,4.389236.150981,1.307765,1.257567,2.295084,2.573997,2.296576h94.204938c1.134697.014809,2.141616-.724701,2.467026-1.811855c2.757853-9.918402-5.415422-25.295769-24.376084-18.185408Z"
+                  transform="translate(0,0)"
+                  fill="#fff"
+                  style={{
+                    stroke: "url(&quot",
+                    paintOrder: "fill markers",
+                  }}
+                />
+              </g>
+            </g>
+            <g id="eUbxc2KBHAG13_to" transform="translate(230.26124,42.040123)">
+              <g transform="translate(-201.955305,-185.430107)">
+                <path
+                  d="M88.940698,194.665284c-.645567-10.621595-9.037246-19.133283-19.647416-19.928394s-20.176425,6.370837-22.397446,16.777613c-4.17191-1.520089-8.838797-.680026-12.218951,2.199472s-4.951754,7.353901-4.114799,11.714984c.1551.760043.826457,1.303945,1.60205,1.297907h66.543249c.447953.001259.876653-.182035,1.18526-.506768s.469877-.762237.445878-1.209602c-.181238-3.325327-1.713925-10.345212-11.397825-10.345212Z"
+                  transform="translate(-36.52174 39.51805)"
+                  fill="#fff"
+                  // stroke="#000"
+                />
+              </g>
+            </g>
+            <rect
+              width={140.986}
+              height={120}
+              stroke="#000"
               style={{
-                stroke: "url(&quot",
-                paintOrder: "fill markers",
+                fill: "rgb(233, 196, 106)",
               }}
+              x={168.975}
+              y={136}
             />
-          </g>
-          <g id="eUbxc2KBHAG12_to" transform="translate(589.954996,-52.830984)">
-            <path
-              d="M143.283934,194.703115c-6.460432-17.639128-24.643369-28.102589-43.139981-24.825114s-31.977429,19.351536-31.983953,38.136565c.000593,1.466736.085419,2.932227.254057,4.389236.150981,1.307765,1.257567,2.295084,2.573997,2.296576h94.204938c1.134697.014809,2.141616-.724701,2.467026-1.811855c2.757853-9.918402-5.415422-25.295769-24.376084-18.185408Z"
-              transform="translate(0,0)"
-              fill="#fff"
+            <rect
+              width={20.163}
+              height={61.739}
+              stroke="#000"
+              x={219.058}
+              y={193.934}
               style={{
-                stroke: "url(&quot",
-                paintOrder: "fill markers",
+                fill: "rgba(153, 2, 2, 0.655)",
               }}
             />
-          </g>
-        </g>
-        <g id="eUbxc2KBHAG13_to" transform="translate(230.26124,42.040123)">
-          <g transform="translate(-201.955305,-185.430107)">
+            <g transform="matrix(1, 0, 0, 1, 364.305273, 9.4021)">
+              <path
+                d="M88.940698,194.665284c-.645567-10.621595-9.037246-19.133283-19.647416-19.928394s-20.176425,6.370837-22.397446,16.777613c-4.17191-1.520089-8.838797-.680026-12.218951,2.199472s-4.951754,7.353901-4.114799,11.714984c.1551.760043.826457,1.303945,1.60205,1.297907h66.543249c.447953.001259.876653-.182035,1.18526-.506768s.469877-.762237.445878-1.209602c-.181238-3.325327-1.713925-10.345212-11.397825-10.345212Z"
+                transform="translate(-36.006452 39.51805)"
+                stroke="#000"
+                style={{
+                  fill: "rgb(45, 158, 9)",
+                }}
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 94.641801, 163.932482)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                fill="#e9c46a"
+                stroke="#000"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 60.33455, 134.791247)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                fill="#e9c46a"
+                stroke="#000"
+                x={98.942}
+                y={176}
+              />
+              <rect
+                width={50}
+                height={46}
+                fill="#98d5f4"
+                stroke="#000"
+                ry={0}
+                rx={0}
+                transform="translate(111.219823 187)"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 94.589319, 134.773638)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                fill="#e9c46a"
+                stroke="#000"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 60.937364, 105.918871)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                fill="#e9c46a"
+                stroke="#000"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 94.589334, 105.901262)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                fill="#e9c46a"
+                stroke="#000"
+                x={97.5}
+                y={176}
+              />
+              <rect
+                width={50}
+                height={46}
+                fill="#98d5f4"
+                stroke="#000"
+                ry={0}
+                rx={0}
+                transform="translate(111.219823 187)"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.393636, 0, 0, 0.356767, 271.88477, 164.826449)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                fill="#e9c46a"
+                stroke="#000"
+                ry={0}
+                rx={0}
+                transform="translate(97.5 176)"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.393636, 0, 0, 0.356767, 303.565037, 164.809039)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                fill="#e9c46a"
+                stroke="#000"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.393636, 0, 0, 0.356767, 271.267887, 135.997606)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                fill="#e9c46a"
+                stroke="#000"
+                x={98.942}
+                y={176}
+              />
+              <rect
+                width={50}
+                height={46}
+                fill="#98d5f4"
+                stroke="#000"
+                ry={0}
+                rx={0}
+                transform="translate(111.219823 187)"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.393636, 0, 0, 0.356767, 303.51563, 135.980181)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                fill="#e9c46a"
+                stroke="#000"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.393636, 0, 0, 0.356767, 271.835362, 107.451959)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                fill="#e9c46a"
+                stroke="#000"
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.393636, 0, 0, 0.356767, 303.51566, 107.434549)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                fill="#e9c46a"
+                stroke="#000"
+                x={97.5}
+                y={176}
+              />
+              <rect
+                width={50}
+                height={46}
+                fill="#98d5f4"
+                stroke="#000"
+                ry={0}
+                rx={0}
+                transform="translate(111.219823 187)"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 137.109087, 156.069323)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                stroke="#000"
+                style={{
+                  fill: "rgba(153, 2, 2, 0.655)",
+                }}
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 136.233812, 117.273638)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                stroke="#000"
+                style={{
+                  fill: "rgba(153, 2, 2, 0.655)",
+                }}
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 226.295078, 155.413561)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                stroke="#000"
+                style={{
+                  fill: "rgba(153, 2, 2, 0.655)",
+                }}
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 226.622989, 121.31299)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                stroke="#000"
+                style={{
+                  fill: "rgba(153, 2, 2, 0.655)",
+                }}
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 181.374148, 93.770235)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                stroke="#000"
+                style={{
+                  fill: "rgba(153, 2, 2, 0.655)",
+                }}
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 224.983539, 78.687326)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                stroke="#000"
+                x={97.5}
+                y={176}
+                style={{
+                  fill: "rgba(153, 2, 2, 0.655)",
+                }}
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                fill="#98d5f4"
+                stroke="#000"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                fill="none"
+                stroke="#000"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                fill="none"
+                stroke="#000"
+              />
+            </g>
+            <g
+              transform="matrix(0.418135, 0, 0, 0.360851, 135.469637, 80.326776)"
+              style={{}}
+            >
+              <rect
+                width={80}
+                height={80}
+                rx={0}
+                ry={0}
+                transform="translate(97.5 176)"
+                stroke="#000"
+                style={{
+                  fill: "rgba(153, 2, 2, 0.655)",
+                }}
+              />
+              <rect
+                width={50}
+                height={46}
+                rx={0}
+                ry={0}
+                transform="translate(111.219823 187)"
+                stroke="#000"
+                fill="#98d5f4"
+              />
+              <line
+                x1={0}
+                y1={-23}
+                x2={0}
+                y2={23}
+                transform="translate(136.219823 210)"
+                stroke="#000"
+                fill="none"
+              />
+              <line
+                x1={-25}
+                y1={0}
+                x2={25}
+                y2={0}
+                transform="translate(137.5 210)"
+                stroke="#000"
+                fill="none"
+              />
+            </g>
             <path
-              d="M88.940698,194.665284c-.645567-10.621595-9.037246-19.133283-19.647416-19.928394s-20.176425,6.370837-22.397446,16.777613c-4.17191-1.520089-8.838797-.680026-12.218951,2.199472s-4.951754,7.353901-4.114799,11.714984c.1551.760043.826457,1.303945,1.60205,1.297907h66.543249c.447953.001259.876653-.182035,1.18526-.506768s.469877-.762237.445878-1.209602c-.181238-3.325327-1.713925-10.345212-11.397825-10.345212Z"
-              transform="translate(-36.52174 39.51805)"
-              fill="#fff"
-              // stroke="#000"
+              d="M 239.197 95.972 L 310.677 134.991 L 167.716 134.991 L 239.197 95.972 Z"
+              style={{
+                stroke: "rgb(0, 0, 0)",
+                fill: "rgb(78, 85, 49)",
+              }}
             />
-          </g>
-        </g>
-        <rect
-          width={140.986}
-          height={120}
-          stroke="#000"
-          style={{
-            fill: "rgb(233, 196, 106)",
-          }}
-          x={168.975}
-          y={136}
-        />
-        <rect
-          width={20.163}
-          height={61.739}
-          stroke="#000"
-          x={219.058}
-          y={193.934}
-          style={{
-            fill: "rgba(153, 2, 2, 0.655)",
-          }}
-        />
-        <g transform="matrix(1, 0, 0, 1, 364.305273, 9.4021)">
-          <path
-            d="M88.940698,194.665284c-.645567-10.621595-9.037246-19.133283-19.647416-19.928394s-20.176425,6.370837-22.397446,16.777613c-4.17191-1.520089-8.838797-.680026-12.218951,2.199472s-4.951754,7.353901-4.114799,11.714984c.1551.760043.826457,1.303945,1.60205,1.297907h66.543249c.447953.001259.876653-.182035,1.18526-.506768s.469877-.762237.445878-1.209602c-.181238-3.325327-1.713925-10.345212-11.397825-10.345212Z"
-            transform="translate(-36.006452 39.51805)"
-            stroke="#000"
-            style={{
-              fill: "rgb(45, 158, 9)",
-            }}
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 94.641801, 163.932482)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            fill="#e9c46a"
-            stroke="#000"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 60.33455, 134.791247)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            fill="#e9c46a"
-            stroke="#000"
-            x={98.942}
-            y={176}
-          />
-          <rect
-            width={50}
-            height={46}
-            fill="#98d5f4"
-            stroke="#000"
-            ry={0}
-            rx={0}
-            transform="translate(111.219823 187)"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 94.589319, 134.773638)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            fill="#e9c46a"
-            stroke="#000"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 60.937364, 105.918871)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            fill="#e9c46a"
-            stroke="#000"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 94.589334, 105.901262)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            fill="#e9c46a"
-            stroke="#000"
-            x={97.5}
-            y={176}
-          />
-          <rect
-            width={50}
-            height={46}
-            fill="#98d5f4"
-            stroke="#000"
-            ry={0}
-            rx={0}
-            transform="translate(111.219823 187)"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.393636, 0, 0, 0.356767, 271.88477, 164.826449)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            fill="#e9c46a"
-            stroke="#000"
-            ry={0}
-            rx={0}
-            transform="translate(97.5 176)"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.393636, 0, 0, 0.356767, 303.565037, 164.809039)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            fill="#e9c46a"
-            stroke="#000"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.393636, 0, 0, 0.356767, 271.267887, 135.997606)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            fill="#e9c46a"
-            stroke="#000"
-            x={98.942}
-            y={176}
-          />
-          <rect
-            width={50}
-            height={46}
-            fill="#98d5f4"
-            stroke="#000"
-            ry={0}
-            rx={0}
-            transform="translate(111.219823 187)"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.393636, 0, 0, 0.356767, 303.51563, 135.980181)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            fill="#e9c46a"
-            stroke="#000"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.393636, 0, 0, 0.356767, 271.835362, 107.451959)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            fill="#e9c46a"
-            stroke="#000"
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.393636, 0, 0, 0.356767, 303.51566, 107.434549)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            fill="#e9c46a"
-            stroke="#000"
-            x={97.5}
-            y={176}
-          />
-          <rect
-            width={50}
-            height={46}
-            fill="#98d5f4"
-            stroke="#000"
-            ry={0}
-            rx={0}
-            transform="translate(111.219823 187)"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 137.109087, 156.069323)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            stroke="#000"
-            style={{
-              fill: "rgba(153, 2, 2, 0.655)",
-            }}
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 136.233812, 117.273638)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            stroke="#000"
-            style={{
-              fill: "rgba(153, 2, 2, 0.655)",
-            }}
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 226.295078, 155.413561)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            stroke="#000"
-            style={{
-              fill: "rgba(153, 2, 2, 0.655)",
-            }}
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 226.622989, 121.31299)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            stroke="#000"
-            style={{
-              fill: "rgba(153, 2, 2, 0.655)",
-            }}
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 181.374148, 93.770235)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            stroke="#000"
-            style={{
-              fill: "rgba(153, 2, 2, 0.655)",
-            }}
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 224.983539, 78.687326)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            stroke="#000"
-            x={97.5}
-            y={176}
-            style={{
-              fill: "rgba(153, 2, 2, 0.655)",
-            }}
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            fill="#98d5f4"
-            stroke="#000"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            fill="none"
-            stroke="#000"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            fill="none"
-            stroke="#000"
-          />
-        </g>
-        <g
-          transform="matrix(0.418135, 0, 0, 0.360851, 135.469637, 80.326776)"
-          style={{}}
-        >
-          <rect
-            width={80}
-            height={80}
-            rx={0}
-            ry={0}
-            transform="translate(97.5 176)"
-            stroke="#000"
-            style={{
-              fill: "rgba(153, 2, 2, 0.655)",
-            }}
-          />
-          <rect
-            width={50}
-            height={46}
-            rx={0}
-            ry={0}
-            transform="translate(111.219823 187)"
-            stroke="#000"
-            fill="#98d5f4"
-          />
-          <line
-            x1={0}
-            y1={-23}
-            x2={0}
-            y2={23}
-            transform="translate(136.219823 210)"
-            stroke="#000"
-            fill="none"
-          />
-          <line
-            x1={-25}
-            y1={0}
-            x2={25}
-            y2={0}
-            transform="translate(137.5 210)"
-            stroke="#000"
-            fill="none"
-          />
-        </g>
-        <path
-          d="M 239.197 95.972 L 310.677 134.991 L 167.716 134.991 L 239.197 95.972 Z"
-          style={{
-            stroke: "rgb(0, 0, 0)",
-            fill: "rgb(78, 85, 49)",
-          }}
-        />
-        <rect
-          width={20.163}
-          height={61.739}
-          stroke="#000"
-          x={239.606}
-          y={193.964}
-          style={{
-            fill: "rgba(153, 2, 2, 0.655)",
-          }}
-        />
-      </svg>
+            <rect
+              width={20.163}
+              height={61.739}
+              stroke="#000"
+              x={239.606}
+              y={193.964}
+              style={{
+                fill: "rgba(153, 2, 2, 0.655)",
+              }}
+            />
+          </svg>
         </div>
         <div className="name">Name</div>
         <div className="contactme">
-          <ContactMe />
+          <svg
+            className="w-full h-full lg:absolute bottom-0"
+            id="ejQcAnIEep71"
+            viewBox="0 0 341 341"
+            shape-rendering="geometricPrecision"
+            text-rendering="geometricPrecision"
+            project-id="14783e8da8b64156998ab714bdd10e64"
+            export-id="496926a1d2ca48ed821f167f5b7a6d1d"
+            cached="true"
+          >
+            <g transform="translate(.300656 75.451614)">
+              <g
+                transform="translate(0-.001745)"
+                clip-path="url(#ejQcAnIEep76)"
+              >
+                <g>
+                  <path
+                    d="M91.164062,20.183594h171.007813v151.632812h-171.007813v-151.632812Zm0,0"
+                    transform="translate(0 0.001746)"
+                    fill="#fff"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep76">
+                  <path
+                    d="M91,20h171.984375v152L91,172v-152Zm0,0"
+                    transform="translate(.000001 0)"
+                  />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep711)">
+                <g>
+                  <path
+                    d="M-3245.016478,1800.031015h3363.009066v2981.98378h-3363.009066v-2981.98378Zm0,0"
+                    transform="matrix(.05085 0 0 0.05085 256.172-71.3473)"
+                    fill="none"
+                    stroke="#272537"
+                    stroke-width="15"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep711">
+                  <path
+                    d="M90.351562,19.367188h172.632813v153.261718h-172.632813v-153.261718Zm0,0"
+                    transform="translate(.000001 0)"
+                  />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep716)">
+                <g transform="translate(.378944 0)">
+                  <path
+                    d="M91.164062,20.183594h171.007813v19.269531h-171.007813v-19.269531Zm0,0"
+                    transform="translate(-.378944 0.028095)"
+                    fill="#ffcc53"
+                    stroke="#000"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep716">
+                  <path
+                    d="M91,20h171.984375v20L91,40v-20Zm0,0"
+                    transform="translate(.000001 0)"
+                  />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep719)">
+                <clipPath id="ejQcAnIEep719">
+                  <path
+                    d="M90.351562,19.367188h172.632813v21.632812h-172.632813v-21.632812Zm0,0"
+                    transform="translate(.000001 0)"
+                  />
+                </clipPath>
+              </g>
+              <path
+                d="M0.000619,0.00595h155.943817"
+                transform="matrix(-.05085 0 0 0.05085 218.539 29.8434)"
+                fill="none"
+                stroke="#272537"
+                stroke-width="32.083"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M-28.656055,2062.062719l-112.310276-144.036777"
+                transform="matrix(.05085 0 0 0.05085 256.172-71.3473)"
+                fill="none"
+                stroke="#272537"
+                stroke-width="32.083"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M0.033649,0.015955L112.343924,144.052731"
+                transform="matrix(.05085 0 0-.05085 249.002 33.4578)"
+                fill="none"
+                stroke="#272537"
+                stroke-width="32.083"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+              />
+              <g
+                transform="translate(0 0.003025)"
+                clip-path="url(#ejQcAnIEep727)"
+              >
+                <g>
+                  <path
+                    d="M91.164062,158.238281h171.007813v13.578125h-171.007813v-13.578125Zm0,0"
+                    fill="#ffcc53"
+                    stroke-width="2"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep727">
+                  <path
+                    d="M91,158h171.984375v14L91,172v-14Zm0,0"
+                    transform="translate(.000001 0)"
+                  />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep732)">
+                <g>
+                  <path
+                    d="M-3245.016478,4514.989817h3363.009066v267.024978h-3363.009066v-267.024978Zm0,0"
+                    transform="matrix(.05085 0 0 0.05085 256.172-71.3473)"
+                    fill="none"
+                    stroke="#272537"
+                    stroke-width="15"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep732">
+                  <path
+                    d="M90.351562,157h172.632813v15.628906h-172.632813v-15.628906Zm0,0"
+                    transform="translate(.000001 0)"
+                  />
+                </clipPath>
+              </g>
+              <path
+                d="M130.015625,158.238281h53.390625v13.578125h-53.390625v-13.578125Zm0,0"
+                transform="translate(.000001 0)"
+                fill="#f4a261"
+              />
+              <g clip-path="url(#ejQcAnIEep738)">
+                <g>
+                  <path
+                    d="M-2480.968596,4514.989817h1049.970486v267.024978h-1049.970486v-267.024978Zm0,0"
+                    transform="matrix(.05085 0 0 0.05085 256.172-71.3473)"
+                    fill="none"
+                    stroke="#272537"
+                    stroke-width="15"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep738">
+                  <path d="M129,157h56v15.628906h-56L129,157Zm0,0" />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep743)">
+                <g>
+                  <path
+                    d="M5.366301,5.372321h259.659176v217.591103h-259.659176v-217.591103Zm0,0"
+                    transform="matrix(.209484 0 0 0.209557 97.9774 48.8117)"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="10.742"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep743" />
+              </g>
+              <g clip-path="url(#ejQcAnIEep747)">
+                <g transform="translate(0 0.000001)">
+                  <path
+                    id="ejQcAnIEep746"
+                    d="M170.25,48.785156h84.472656v8.195313h-84.472656v-8.195313Zm0,0"
+                    transform="translate(0 0.000001)"
+                    opacity="0"
+                    fill="#264653"
+                    stroke="#000"
+                    stroke-dasharray="185.34"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep747">
+                  <path
+                    d="M170.25,48.785156h84.476562v8.195313h-84.476562v-8.195313Zm0,0"
+                    transform="translate(0 0.000001)"
+                  />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep752)">
+                <g>
+                  <path
+                    id="ejQcAnIEep751"
+                    d="M170.25,61.984375h84.472656v8.191406h-84.472656v-8.191406Zm0,0"
+                    opacity="0"
+                    fill="#264653"
+                    stroke="#000"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep752">
+                  <path d="M170.25,61.984375h84.476562v8.191406h-84.476562v-8.191406Zm0,0" />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep757)">
+                <g>
+                  <path
+                    id="ejQcAnIEep756"
+                    d="M170.25,75.328125h84.472656v8.191406h-84.472656v-8.191406Zm0,0"
+                    transform="translate(0-.49854)"
+                    opacity="0"
+                    fill="#264653"
+                    stroke="#000"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep757">
+                  <path d="M170.25,75.328125h84.476562v8.191406h-84.476562v-8.191406Zm0,0" />
+                </clipPath>
+              </g>
+              <g clip-path="url(#ejQcAnIEep762)">
+                <g>
+                  <path
+                    id="ejQcAnIEep761"
+                    d="M170.25,88.761719h84.472656v8.191406h-84.472656v-8.191406Zm0,0"
+                    opacity="0"
+                    fill="#264653"
+                    stroke="#000"
+                  />
+                </g>
+                <clipPath id="ejQcAnIEep762">
+                  <path d="M170.25,88.761719h84.476562v8.191406h-84.476562v-8.191406Zm0,0" />
+                </clipPath>
+              </g>
+              <path
+                id="ejQcAnIEep764"
+                d="M-0.001134,0.999818h116.943961"
+                transform="matrix(.748355 0 0 0.748355 98.2352 106.765539)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="110"
+                stroke-dasharray="116.95"
+              />
+              <path
+                id="ejQcAnIEep765"
+                d="M-0.000553,1.000775h62.428574"
+                transform="matrix(.748355 0 0 0.748355 97.9692 117.833)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="60"
+                stroke-dasharray="62.43"
+              />
+              <path
+                id="ejQcAnIEep766"
+                d="M-0.000202,1.002301h209.626382"
+                transform="matrix(.748355 0 0 0.748355 97.8517 130.215)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="210"
+                stroke-dasharray="209.63"
+              />
+              <path
+                id="ejQcAnIEep767"
+                d="M-0.000404,0.997906h56.953025"
+                transform="matrix(.748355 0 0 0.748355 212.489 142.937)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="60"
+                stroke-dasharray="56.96"
+              />
+              <path
+                id="ejQcAnIEep768"
+                d="M0.001933,0.999818h77.691212"
+                transform="matrix(.748355 0 0 0.748355 196.702 106.267)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="80"
+                stroke-dasharray="77.7"
+              />
+              <path
+                id="ejQcAnIEep769"
+                d="M-0.002267,1.000775h133.167039"
+                transform="matrix(.748355 0 0 0.748355 155.072 117.833)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="130"
+                stroke-dasharray="133.17"
+              />
+              <path
+                id="ejQcAnIEep770"
+                d="M0.002511,1.001989h92.123905"
+                transform="matrix(.748355 0 0 0.748355 97.8497 142.933945)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="90"
+                stroke-dasharray="92.13"
+              />
+              <path
+                id="ejQcAnIEep771"
+                d="M-0.000823,0.997868l40.625551.000026"
+                transform="matrix(.748355 0 0 0.748355 173.708 142.937)"
+                fill="none"
+                stroke="#000"
+                stroke-dashoffset="40"
+                stroke-dasharray="40.63"
+              />
+            </g>
+            <g transform="translate(80.410849 65.197449)">
+              <rect
+                id="ejQcAnIEep773"
+                width="55.644448"
+                height="47.216589"
+                rx="0"
+                ry="0"
+                transform="translate(19.793082 59.039086)"
+                fill="#94d1ee"
+                fill-opacity="0"
+                stroke="#000"
+              />
+              <path
+                id="ejQcAnIEep774"
+                d="M-18.555501,-24.1L-9.531466,-24.1L-29.531466,-24.1L-18.555501,-24.1Z"
+                transform="translate(52.968996 130.355675)"
+                fill="#2a9d8f"
+                stroke="#000"
+              />
+              <path
+                id="ejQcAnIEep775"
+                d="M-10.609613,-14.1L2.468534,-14.1L-29.531466,-14.1L-10.609613,-14.1Z"
+                transform="translate(72.491576 120.354166)"
+                fill="#2a9d8f"
+                stroke="#000"
+              />
+            </g>
+            <path
+              d="M23.184197,22.145599c-3.490365-3.224463-7.895831,2.404706,0,6.56325c7.895831-4.158544,3.490365-9.787713,0-6.56325Z"
+              transform="translate(79.562232 215.795141)"
+              fill="#e76f51"
+              stroke="#000"
+            />
+            <path
+              d="M23.184197,22.145599c-3.490365-3.224463-7.895831,2.404706,0,6.56325c7.895831-4.158544,3.490365-9.787713,0-6.56325Z"
+              transform="translate(94.664183 215.795141)"
+              fill="#e76f51"
+              stroke="#000"
+            />
+            <rect
+              width="10"
+              height="10"
+              rx="0"
+              ry="0"
+              transform="translate(230.612639 101.610134)"
+              fill="#fff"
+              stroke="#000"
+            />
+            <rect
+              width="10"
+              height="10"
+              rx="0"
+              ry="0"
+              transform="translate(227.587151 98.960203)"
+              fill="#e76f51"
+              stroke="#000"
+            />
+            <circle
+              id="ejQcAnIEep780"
+              r="1"
+              transform="translate(121.848385 143.187991)"
+              fill="#ffcc53"
+              stroke="#000"
+            />
+          </svg>
         </div>
         <div className="resume">
           Resume
@@ -1467,8 +2773,225 @@ export const HomePage = () => {
             />
           </svg>
         </div>
-        <div className="socialmedia">Social Media</div>
-        <div className="extra">extra</div>
+        <div className="socialmedia">
+          <svg
+            id="ecfYqkDzjoQ1"
+            viewBox="0 0 300 300"
+            cached="true"
+            width="260"
+            height="260"
+          >
+            <rect
+              width="180"
+              height="100"
+              rx="0"
+              ry="0"
+              transform="translate(60.17149 108.449952)"
+              fill="#e9c46a"
+              stroke-width="2"
+            />
+            <path
+              id="ecfYqkDzjoQ3"
+              d="M60.17149,102.131785h180l-56.262776,38.259286h-66.503538L60.17149,102.131785Z"
+              transform="matrix(1.014566 0 0 1-2.187398 6.318167)"
+              fill="#fada8e"
+              stroke="#000"
+            />
+            <g id="ecfYqkDzjoQ4_to" transform="translate(112.311339,143.37819)">
+              <rect
+                id="ecfYqkDzjoQ4"
+                width="130"
+                height="70"
+                rx="0"
+                ry="0"
+                transform="translate(-23,-23)"
+                opacity="0"
+                fill="#fff"
+                stroke="#000"
+              />
+            </g>
+            <path
+              d="M57.541567,231.197731l58.128647-61.740714l67.615265.555863l55.567062,61.184851h-181.310974Z"
+              transform="translate(1.318949-22.747779)"
+              fill="#e9c46a"
+              stroke="#000"
+            />
+            <g
+              id="ecfYqkDzjoQ6_to"
+              transform="translate(165.331702,160.997459)"
+            >
+              <path
+                d="M34.184295,24.718736c-13.089115-12.08083-29.609924,9.009516,0,24.589991c29.609923-15.580475,13.089114-36.670821,0-24.589991Z"
+                transform="translate(-49.999996,-50.074374)"
+                fill="#e76f51"
+                stroke="#000"
+              />
+            </g>
+            <path
+              d="M117.537054,170.01288L59.065428,231.753594l.342979-100l58.128647,38.259286Z"
+              transform="translate(-.547891-23.303642)"
+              fill="#fada8e"
+              stroke="#000"
+            />
+            <path
+              d="M183.285482,170.012881l56.262776-38.259287v100l-56.262776-61.740713Z"
+              transform="translate(.623232-23.303642)"
+              fill="#fada8e"
+              stroke="#000"
+            />
+            <g
+              id="ecfYqkDzjoQ9_to"
+              transform="translate(153.264699,121.816195)"
+            >
+              <text
+                id="ecfYqkDzjoQ9"
+                dx="0"
+                dy="0"
+                fontFamily='"ecfYqkDzjoQ1:::Oswald"'
+                fontSize="15"
+                fontWeight="700"
+                transform="translate(-41.068009,5.272683)"
+                opacity="0"
+                fill="#e76f51"
+                strokeWidth="0"
+              >
+                <tspan y="0" fontWeight="700" stroke-width="0">
+                  Social Links
+                </tspan>
+              </text>
+            </g>
+            <path
+              id="ecfYqkDzjoQ11"
+              d="M33.5,38.5c-4.361905,3.466667-5.766667,6.27619-7.5,15-1.733333-8.72381-3.138095-11.533333-7.5-15c4.361905-3.466667,5.766667-6.27619,7.5-15c1.733333,8.72381,3.138095,11.533333,7.5,15Z"
+              transform="translate(165.408714 26.767436)"
+              opacity="0"
+              fill="#fff"
+              stroke="#000"
+            />
+            <path
+              id="ecfYqkDzjoQ12"
+              d="M33.5,38.5c-4.361905,3.466667-5.766667,6.27619-7.5,15-1.733333-8.72381-3.138095-11.533333-7.5-15c4.361905-3.466667,5.766667-6.27619,7.5-15c1.733333,8.72381,3.138095,11.533333,7.5,15Z"
+              transform="translate(79.404114 117.15854)"
+              opacity="0"
+              fill="#fff"
+              stroke="#000"
+            />
+            <path
+              id="ecfYqkDzjoQ13"
+              d="M28.5,31c-2.907937,1.733334-3.844445,3.138095-5,7.5-1.155555-4.361905-2.092063-5.766666-5-7.5c2.907937-1.733333,3.844445-3.138095,5-7.5c1.155555,4.361905,2.092063,5.766667,5,7.5Z"
+              transform="translate(180.408714 19.267436)"
+              opacity="0"
+              fill="#fff"
+              stroke="#000"
+            />
+            <path
+              id="ecfYqkDzjoQ14"
+              d="M28.5,31c-2.907937,1.733334-3.844445,3.138095-5,7.5-1.155555-4.361905-2.092063-5.766666-5-7.5c2.907937-1.733333,3.844445-3.138095,5-7.5c1.155555,4.361905,2.092063,5.766667,5,7.5Z"
+              transform="translate(185.408714 41.767436)"
+              opacity="0"
+              fill="#fff"
+              stroke="#000"
+            />
+            <path
+              id="ecfYqkDzjoQ15"
+              d="M28.5,31c-2.907937,1.733334-3.844445,3.138095-5,7.5-1.155555-4.361905-2.092063-5.766666-5-7.5c2.907937-1.733333,3.844445-3.138095,5-7.5c1.155555,4.361905,2.092063,5.766667,5,7.5Z"
+              transform="translate(155.408714 102.15854)"
+              opacity="0"
+              fill="#fff"
+              stroke="#000"
+            />
+            <path
+              id="ecfYqkDzjoQ16"
+              d="M28.5,31c-2.907937,1.733334-3.844445,3.138095-5,7.5-1.155555-4.361905-2.092063-5.766666-5-7.5c2.907937-1.733333,3.844445-3.138095,5-7.5c1.155555,4.361905,2.092063,5.766667,5,7.5Z"
+              transform="translate(74.404114 102.15854)"
+              opacity="0"
+              fill="#fff"
+              stroke="#000"
+            />
+          </svg>
+        </div>
+        <div className="extra">
+          <svg
+            id="eeLJ3NBQkhu1"
+            viewBox="0 0 171 171"
+            shapeRendering="geometricPrecision"
+            textRendering="geometricPrecision"
+            cached="false"
+            className="w-full h-full"
+            width="150"
+            height="150" // Adjust size as needed
+          >
+            <g transform="translate(-92.13499-88.393577)">
+              <g transform="translate(-.265008 0)">
+                <g
+                  id="eeLJ3NBQkhu4_tr"
+                  transform="translate(176.406544,173.893578) rotate(0)"
+                >
+                  <g transform="translate(-176.406543,-173.893577)">
+                    <path
+                      d="M68.990552,113.548099c-9.71971,17.001312-3.808359,36.737502,40.716747,29.637422c2.337149-.371131,3.795105-2.16051,4.5771-3.485976s1.577244-3.49923.728978-5.708341C98.900749,91.89882,78.851639,96.626315,68.990552,113.548099Z"
+                      transform="translate(55.152148 27.16665)"
+                      fill="#81BFDA"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M68.990552,113.548099c-9.71971,17.001312-3.808359,36.737502,40.716747,29.637422c2.337149-.371131,3.795105-2.16051,4.5771-3.485976s1.577244-3.49923.728978-5.708341C98.900749,91.89882,78.851639,96.626315,68.990552,113.548099Z"
+                      transform="matrix(.410172 0.912008-.912008 0.410172 257.358377 5.779852)"
+                      fill="#81BFDA"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M68.988814,234.060549c9.861309,16.921837,29.910868,21.649348,46.028275-20.44317.843866-2.209117.026508-4.369634-.728995-5.708359s-2.24442-3.092764-4.577202-3.485986c-44.530522-7.100103-50.446423,12.63615-40.722078,29.637515Z"
+                      transform="translate(52.177498-33.50484)"
+                      fill="#81BFDA"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M68.988814,234.060549c9.861309,16.921837,29.910868,21.649348,46.028275-20.44317.843866-2.209117.026508-4.369634-.728995-5.708359s-2.24442-3.092764-4.577202-3.485986c-44.530522-7.100103-50.446423,12.63615-40.722078,29.637515Z"
+                      transform="matrix(.583941-.811796 0.811796 0.583941-60.05805 151.100552)"
+                      fill="#81BFDA"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M267.837415,234.060469c9.719706-17.001312,3.808357-36.737502-40.716735-29.637422-2.337148.371131-3.795104,2.16051-4.577098,3.485976s-1.577244,3.49923-.728978,5.708341c16.112622,42.092384,36.161726,37.364889,46.022811,20.443105Z"
+                      transform="translate(-39.053736-27.973186)"
+                      fill="#81BFDA"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M267.84163,113.548372c-9.861305-16.921845-29.910858-21.649358-46.02826,20.443178-.843866,2.209119-.026509,4.369636.728995,5.708362s2.244419,3.092765,4.5772,3.485988c44.530508,7.100105,50.446408-12.636156,40.722065-29.637528Z"
+                      transform="translate(-34.946979 32.337744)"
+                      fill="#81BFDA"
+                      stroke="#000"
+                    />
+                  </g>
+                </g>
+              </g>
+              <g>
+                <circle
+                  r="32.365"
+                  transform="translate(177.635 173.20044)"
+                  fill="#e76f51"
+                  stroke="#000"
+                />
+                <circle
+                  r="25"
+                  transform="translate(177.635 173.20044)"
+                  fill="#e9c46a"
+                  stroke="#000"
+                />
+              </g>
+            </g>
+            <circle r="4" transform="translate(76.616036 85.5)" />
+            <circle r="4" transform="translate(89.50001 79.242074)" />
+            <path
+              d="M84.551427,90.426326q8.667094,3.485977,8.667091-4.875996"
+              transform="translate(-1.931418 1.755836)"
+              fill="none"
+              stroke="#000"
+            />
+          </svg>
+        </div>
       </div>
     </>
   );
