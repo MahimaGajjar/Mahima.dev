@@ -14,15 +14,29 @@
   background-color: #f08a5d;
 }
 .projects {
-  grid-row: 1/3;
-  grid-column: 3/5;
+  grid-row: 1 / 3;
+  grid-column: 3 / 5;
   border: 2px solid black;
   background-color: #f5f0cd;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  position: relative; /* Important for positioning */
 }
+
+.project-link {
+  display: block; /* Ensure the link takes up the full area */
+  width: 100%; /* Allow the link to fill the container */
+  height: 100%; /* Allow the link to fill the container */
+  text-decoration: none; /* Remove default link styles */
+}
+
+.project-link:hover {
+  /* opacity: 0.8;  */
+  /* Optional: Add hover effect */
+}
+
 .education {
   grid-row: 1 / 3;
   grid-column: 5 / 7;
@@ -30,14 +44,11 @@
   background-color: #81bfda;
   display: flex;
   justify-content: center;
-  align-items: center; /* Center vertically */
-  overflow: hidden; /* Prevent overflow */
+  align-items: center;
+  overflow: hidden;
+  position: relative; /* Important for positioning */
 }
-.education svg {
-  max-width: 100%; /* Limit the width to the parent */
-  max-height: 100%; /* Limit the height to the parent */
-  object-fit: contain; /* Ensure it fits while maintaining aspect ratio */
-}
+
 .name {
   grid-column: 3/6;
   grid-row: 3/5;
@@ -61,7 +72,7 @@
   grid-column: span 4;
   border: 2px solid black;
   background-color: #81bfda;
-  color: #fada8e;
+  /* color: #e76f51; */
   /* background-color: #81BFDA; */
 }
 .extra {
@@ -77,8 +88,8 @@
 }
 
 /* Workxperience */
-
-#e68ZndEqcxF2_ts {
+/* First group box */
+#e68ZndEqcxF2_ts {   
   animation: e68ZndEqcxF2_ts__ts 2000ms linear infinite normal forwards;
 }
 @keyframes e68ZndEqcxF2_ts__ts {
@@ -94,6 +105,7 @@
     transform: translate(159.889855px, 223.200948px) scale(1, 1);
   }
 }
+/* 2nd group box */
 #e68ZndEqcxF23_ts {
   animation: e68ZndEqcxF23_ts__ts 2000ms linear infinite normal forwards;
 }
@@ -110,6 +122,7 @@
     transform: translate(310.593054px, 223.200948px) scale(1, 1);
   }
 }
+/* 3rd group box */
 #e68ZndEqcxF44_ts {
   animation: e68ZndEqcxF44_ts__ts 2000ms linear infinite normal forwards;
 }
@@ -125,6 +138,7 @@
     transform: translate(311.400408px, 348.20992px) scale(1, 1);
   }
 }
+/* 4th group box */
 #e68ZndEqcxF65_ts {
   animation: e68ZndEqcxF65_ts__ts 2000ms linear infinite normal forwards;
 }
@@ -141,6 +155,7 @@
     transform: translate(160.333152px, 347.410049px) scale(1, 1);
   }
 }
+/* Side elements */
 #e68ZndEqcxF86 {
   animation: e68ZndEqcxF86_c_o 2000ms linear infinite normal forwards;
 }
