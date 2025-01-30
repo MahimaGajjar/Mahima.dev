@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import "./projects.css";
 
 export const Projects = () => {
   return (
-    <div>Projects</div>
-  )
-}
+    <div className="container">
+      <div className="project1"></div>
 
-export default Projects
+      <div className="project2"></div>
+
+      <div className="title">
+        <a href="/" className="titleContent"></a>
+      </div>
+
+      <div className="project3"></div>
+
+      <div className="project4"></div>
+    </div>
+  );
+};
+
+export default Projects;

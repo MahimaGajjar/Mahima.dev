@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr); /* Increased row count */
+    height: calc(100vh - 10px);
+    width: calc(100vw - 10px);
+    gap: 10px; /* Use gap instead of margin */
+  }
+  
+  .col1 {
+    grid-row: 1 / 7;
+    grid-column: 1 / 3;
+    border: 2px solid black;
+    background-color: #223f0de6;
+    /* margin: 10px; */
+
+  }
+  
+  .container .title {
+    grid-row: 3 / 5;
+    grid-column: 3 / 5;
+    border: 2px solid black;
+    background-color: #b0f22c !important;
+}
+  
+  .col2 {
+    grid-row: 1 / 7;
+    grid-column: 5 / 7;
+    border: 2px solid black;
+    background-color: #6f3fe8;
+        /* margin: 10px; */
+
+  }
+  

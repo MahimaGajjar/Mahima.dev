@@ -1,9 +1,21 @@
-import React from 'react'
-
+import React from "react";
+import "./contactme.css";
 export const ContactMe = () => {
   return (
-    <div>ContactMe</div>
-  )
-}
+    <>
+      <div className="container">
+        <div className="heading"></div>
 
-export default ContactMe
+        <div className="form"></div>
+
+        <div className="navigation">
+          <a href="/" className="titleContent">
+            Home
+          </a>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default ContactMe;
