@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-
 import "./home.css";
 export const HomePage = () => {
   return (
@@ -8,13 +7,16 @@ export const HomePage = () => {
       <div className="container">
         <div className="workexperience">
           <Link to="/workexperience">
+          <div className="WEheading-box">
+          <h2>Work Experience</h2>
+          </div>
             <svg
               id="e68ZndEqcxF1"
               className="w-full lg:absolute bottom-0"
               viewBox="0 0 455 512"
               cached="false"
               width="500"
-              height="450"
+              height="350"
             >
               <g
                 id="e68ZndEqcxF2_ts"
@@ -938,6 +940,9 @@ export const HomePage = () => {
         </div>
         <div className="projects">
           <a href="/projects" class="project-link">
+          <div className="Projectheading-box">
+          <h2>Projects</h2>
+          </div>
             <svg
               id="ewEtQUf14pr1"
               className="w-full lg:absolute bottom-0"
@@ -1234,7 +1239,10 @@ export const HomePage = () => {
           </a>
         </div>
         <div className="education">
-          <a href="/education" class="project-link">
+          <a href="/education" class="proj">
+          <div className="educationheading-box">
+          <h2>Education</h2>
+          </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-full lg:absolute bottom-0"
@@ -1242,7 +1250,7 @@ export const HomePage = () => {
               viewBox="0 0 455 256"
               cached="false"
               width="500"
-              height="229"
+              height="219"
               // xmlns:bx="https://boxy-svg.com"
             >
               <defs>
@@ -2243,9 +2251,15 @@ export const HomePage = () => {
             </svg>
           </a>
         </div>
-        <div className="name">Name</div>
+        <div className="name">
+        <h2 className="main-text">Your Name</h2>
+        <p className="sub-text">Your Subtext Here</p>
+        </div>
         <div className="contactme">
           <Link to="/contactme">
+          <div className="contactmeheading-box">
+          <h2>ContactMe</h2>
+          </div>
             <svg
               className="w-full h-full lg:absolute bottom-0"
               id="ejQcAnIEep71"
