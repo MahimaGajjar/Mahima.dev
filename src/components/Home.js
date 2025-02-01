@@ -1,22 +1,68 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
+import { useEffect } from "react";
 export const HomePage = () => {
+  useEffect(() => {
+    class TypeWriter {
+      constructor(txtElement, words, wait = 3000) {
+        this.txtElement = txtElement;
+        this.words = words;
+        this.txt = "";
+        this.wordIndex = 0;
+        this.wait = parseInt(wait, 10);
+        this.isDeleting = false;
+        this.type();
+      }
+      type() {
+        const current = this.wordIndex % this.words.length;
+        const fullTxt = this.words[current];
+
+        this.txt = this.isDeleting
+          ? fullTxt.substring(0, this.txt.length - 1)
+          : fullTxt.substring(0, this.txt.length + 1);
+
+        // Update element
+        this.txtElement.innerHTML = `<span class="txt" style="color:rgb(255, 255, 255);">${this.txt}</span>`;
+
+        let typeSpeed = this.isDeleting ? 50 : 100;
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+          typeSpeed = this.wait;
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === "") {
+          this.isDeleting = false;
+          this.wordIndex++;
+          typeSpeed = 500;
+        }
+
+        setTimeout(() => this.type(), typeSpeed);
+      }
+    }
+
+    const txtElement = document.querySelector(".txt-type");
+    if (txtElement) {
+      const words = JSON.parse(txtElement.getAttribute("data-words"));
+      const wait = txtElement.getAttribute("data-wait");
+      new TypeWriter(txtElement, words, wait);
+    }
+  }, []);
+
   return (
     <>
       <div className="container">
         <div className="workexperience">
           <Link to="/workexperience">
-          <div className="WEheading-box">
-          <h2>Work Experience</h2>
-          </div>
+            <div className="WEheading-box">
+              <h2>Work Experience</h2>
+            </div>
             <svg
               id="e68ZndEqcxF1"
               className="w-full lg:absolute bottom-0"
               viewBox="0 0 455 512"
               cached="false"
-              width="500"
-              height="350"
+              width="455"
+              height="450"
             >
               <g
                 id="e68ZndEqcxF2_ts"
@@ -940,9 +986,9 @@ export const HomePage = () => {
         </div>
         <div className="projects">
           <a href="/projects" class="project-link">
-          <div className="Projectheading-box">
-          <h2>Projects</h2>
-          </div>
+            <div className="Projectheading-box">
+              <h2>Projects</h2>
+            </div>
             <svg
               id="ewEtQUf14pr1"
               className="w-full lg:absolute bottom-0"
@@ -1240,9 +1286,9 @@ export const HomePage = () => {
         </div>
         <div className="education">
           <a href="/education" class="proj">
-          <div className="educationheading-box">
-          <h2>Education</h2>
-          </div>
+            <div className="educationheading-box">
+              <h2>Education</h2>
+            </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-full lg:absolute bottom-0"
@@ -2252,14 +2298,20 @@ export const HomePage = () => {
           </a>
         </div>
         <div className="name">
-        <h2 className="main-text">Your Name</h2>
-        <p className="sub-text">Your Subtext Here</p>
+          <h1 className="main-text">Mahima Gajjar</h1>
+          <p className="sub-text">
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Frontend Developer, Backend Developer", "Freelancer"]'
+            ></span>
+          </p>
         </div>
         <div className="contactme">
           <Link to="/contactme">
-          <div className="contactmeheading-box">
-          <h2>ContactMe</h2>
-          </div>
+            <div className="contactmeheading-box">
+              <h2>ContactMe</h2>
+            </div>
             <svg
               className="w-full h-full lg:absolute bottom-0"
               id="ejQcAnIEep71"
@@ -2269,6 +2321,8 @@ export const HomePage = () => {
               project-id="14783e8da8b64156998ab714bdd10e64"
               export-id="496926a1d2ca48ed821f167f5b7a6d1d"
               cached="true"
+              width="300px"
+              height="350px"
             >
               <g transform="translate(.300656 75.451614)">
                 <g
@@ -2638,7 +2692,9 @@ export const HomePage = () => {
           </Link>
         </div>
         <div className="resume">
-          Resume
+          <div className="resumeheading-box">
+            <h2>Resume</h2>
+          </div>
           <svg
             className="w-full lg:absolute bottom-0"
             id="eGNsHDgmMvZ1"
