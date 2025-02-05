@@ -35,8 +35,8 @@
   grid-column: 2/6;
   /* border: 2px solid black;
   background-color: #f5f0cd; */
-  padding-left:160px;
-  padding-right:130px;
+  padding-left: 160px;
+  padding-right: 130px;
 }
 .formcontainer {
   display: flex;
@@ -50,12 +50,12 @@ form {
   flex-direction: column;
   gap: 15px;
 }
-.form p{  
+.form p {
   font-size: 20px;
   font-weight: 900;
   line-height: 20px;
 }
-select{
+select {
   color: rgb(141, 133, 133);
 }
 .row {
@@ -100,7 +100,89 @@ button:hover {
 
 .navigation {
   grid-row: 1/2;
-  grid-column: 6/7;
-  border: 2px solid black;
-  background-color: #81bfda;
+  grid-column: 1/2;
+  padding: 30px;
+  /* border: 2px solid black; */
+}
+
+/* Reduce Button Size */
+.btn {
+  width: 60px; /* Reduced from 100px */
+  height: 60px; /* Reduced from 100px */
+  border-radius: 50%;
+  background: #bbbbbb;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 350ms ease-out, background 350ms ease-out;
+}
+
+.btn__link {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Reduce Square Size */
+.btn__sq {
+  width: 30px; /* Reduced from 50px */
+  height: 20px; /* Reduced from 32px */
+  background: #ffffff;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 350ms ease-out, top 350ms ease-out;
+}
+
+/* Adjust Arrow Styling */
+.btn__sq::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  border-style: solid;
+  border-width: 0 15px 10px 15px; /* Reduced the size */
+  border-color: transparent transparent #ffffff transparent;
+  transition: left 350ms ease-out, border-width 350ms ease-out;
+}
+
+.btn__sq::after {
+  content: "";
+  position: absolute;
+  width: 12px; /* Reduced from 20px */
+  height: 12px; /* Reduced from 20px */
+  background: #bbbbbb;
+  bottom: -6px; /* Adjusted for centering */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: opacity 350ms ease-out;
+}
+
+/* Hover Effects */
+.btn:hover {
+  transform: rotate(-90deg);
+  background: #79cd38;
+}
+
+.btn:hover .btn__sq {
+  width: 14px; /* Reduced for better proportion */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Center Arrow on Hover */
+.btn:hover .btn__sq::before {
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 0 15px 12px 15px;
+}
+
+.btn:hover .btn__sq::after {
+  opacity: 0;
 }
