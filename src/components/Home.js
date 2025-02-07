@@ -48,6 +48,17 @@ export const HomePage = () => {
     }
   }, []);
 
+  const handleDownload = () => {
+    const resumeUrl = "/MahimaGajjarResume.pdf";
+
+    // Create an anchor element
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "MahimaGajjarResume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       <div className="container">
@@ -2691,7 +2702,7 @@ export const HomePage = () => {
             </svg>
           </Link>
         </div>
-        <div className="resume">
+        <div className="resume" onClick={handleDownload}>
           <div className="resumeheading-box">
             <h2>Resume</h2>
           </div>
