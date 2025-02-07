@@ -4,45 +4,132 @@
   grid-template-rows: repeat(6, 1fr);
   height: calc(100vh - 10px);
   width: calc(100vw - 10px);
-  gap: 7px;
+  gap: 25px;
   margin: 5px;
 }
 
-.project1{
-    grid-row: 1/4;
-    grid-column: 1/3;
-    border: 2px solid black;
-    background-color: #f08a5d;
+.project1 {
+  grid-row: 1/4;
+  grid-column: 1/3;
+  border-radius: 20px;
+  /* background-color: #f08a5d; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.project2{
-    grid-row: 1/3;
-    grid-column: span 5;
-    border: 2px solid black;
-    background-color: #5dc9f0;
+.cards {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 22px 44px rgba(0, 0, 0, 0.19);
+  transition: 0.6s;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Ensures elements align correctly */
+  padding: 20px;
+}
+.card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-.title{
-    grid-row: 3/4 !important;
-    grid-column: span 2 !important;
-    border: 2px solid black !important;
-    background-color: #f5f0cd !important;
+.content {
+  color: white;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 2; /* Keeps content above background */
 }
 
-.titleContent{
-    display: block; 
-    width: 100%; 
-    height: 100%; 
-    text-decoration: none; 
+.projectName {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.project3{
-    grid-row: 3/7;
-    grid-column: span 3;
-    border: 2px solid black;
-    background-color: #f08a5d;
+
+.text {
+  font-size: 14px;
+  font-weight: 300;
 }
-.project4{
-    grid-row: 4/7;
-    grid-column: span 4;
-    border: 2px solid black;
-    background-color: #5dc9f0
+
+.sinopse {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(38, 37, 37, 0.8);
+  color: white;
+  padding: 15px;
+  opacity: 0;
+  transform: translateY(100%); /* Moves it fully outside the card */
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  z-index: 1; /* Ensures it's above the background but below content */
+}
+
+.cards:hover .content {
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.cards:hover .sinopse {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cards:not(:hover) .content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.cards:not(:hover) .sinopse {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.project2 {
+  grid-row: 1/3;
+  grid-column: span 5;
+}
+
+.title {
+  grid-row: 3/4 !important;
+  grid-column: span 2 !important;
+}
+
+.titleContent {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.project3 {
+  grid-row: 3/7;
+  grid-column: span 3;
+  /* border: 2px solid black;
+    background-color: #f08a5d; */
+}
+.project4 {
+  grid-row: 4/7;
+  grid-column: span 4;
+  /* border: 2px solid black;
+    background-color: #5dc9f0 */
+}
+
+.headingText {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }

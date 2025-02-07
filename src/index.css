@@ -28,3 +28,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+:root {
+  --primary-color: #22577a   ;
+  --primary-font-color: rgb(255, 255, 255);
+}
