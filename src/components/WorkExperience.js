@@ -4,15 +4,21 @@ export const WorkExperience = () => {
   return (
     <>
       <div className="container">
-        <div className="col1"></div>
+        <div className="col col1">
+          <div className="image">
+            <img src="/images/Signdesk.jpeg" alt="work" />
+          </div>
+        </div>
 
         <div className="titles">
           <a href="/" className="titleContent">
-            decfe
+            <article>
+              <h1>Work Experience</h1>
+            </article>
           </a>
         </div>
 
-        <div className="col2"></div>
+        <div className="col col2"></div>
       </div>
     </>
   );
