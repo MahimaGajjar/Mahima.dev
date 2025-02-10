@@ -142,6 +142,8 @@
   border: 2px solid black;
   background-color: #f5f0cd;
   position: relative;
+  cursor: pointer;
+  padding-bottom: 10px; 
 }
 .resume svg {
   margin-top: 50px;
@@ -154,6 +156,12 @@
   color: white;
   padding: 8px 15px;
   z-index: 2;
+}
+.resume h6 {
+  position: absolute;
+  bottom: 10px; 
+  left: 10px; 
+  color: #AAB99A;
 }
 .socialmedia {
   grid-row: 5/7;

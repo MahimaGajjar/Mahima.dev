@@ -54,7 +54,7 @@ export const HomePage = () => {
     // Create an anchor element
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "MahimaGajjarResume.pdf"; 
+    link.download = "MahimaGajjarResume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -2867,6 +2867,7 @@ export const HomePage = () => {
               stroke="#000"
             />
           </svg>
+          <h6>To download the resume, Click.</h6>
         </div>
         <div className="socialmedia">
           <svg
