@@ -1,30 +1,55 @@
 import React from "react";
 import "./contactme.css";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const ContactMe = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    interestedin: "",
+    interested_in: "",
     message: "",
   });
+  const [success, setSuccess] = useState(null);
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormData({
-      name: "",
-      email: "",
-      interestedin: "",
-      message: "",
-    });
-    console.log("Form Data:", formData);
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      dropdown_value: formData.interested_in,
+      message: formData.message,
+    };
+    emailjs
+      .send(
+        "service_9603", // Replace with your EmailJS Service ID
+        "template_nh1krvm", // Replace with your EmailJS Template ID
+        templateParams,
+        "M3J2zeYaKC6kv7bjN" // Replace with your EmailJS Public Key
+      )
+      .then(
+        (response) => {
+          console.log("Email sent successfully!", response);
+          setSuccess("Email sent successfully!");
+          setFormData({ name: "", email: "", interested_in: "Interested In", message: "" });
+          toast.success("Email sent successfully!");
+        },
+        (error) => {
+          console.error("Error sending email:", error);
+          setSuccess("Error sending email. Please try again.");
+          toast.error("Error sending email. Please try again.");
+        }
+      );
   };
- 
+
   return (
     <>
+      {/* <div className="background"> */}
       <div className="container">
         <div className="heading">
           <h2>Let's Get in Sync!</h2>
@@ -61,7 +86,7 @@ export const ContactMe = () => {
               <div className="input-group full-width">
                 <label>Interested in:</label>
                 <select
-                  name="interestedin"
+                  name="interested_in"
                   value={formData.country}
                   onChange={handleChange}
                   required
@@ -82,9 +107,7 @@ export const ContactMe = () => {
                 ></textarea>
               </div>
 
-              <button type="submit" >
-                Submit
-              </button>
+              <button type="submit">Submit</button>
             </form>
           </div>
         </div>
@@ -97,6 +120,7 @@ export const ContactMe = () => {
           </div>
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 };

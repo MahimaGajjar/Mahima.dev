@@ -45,8 +45,8 @@ export const WorkExperience = () => {
         </div>
 
         <div className="col col2">
-          <div className="image">
-            <img src="/images/Signdesklogo.png" alt="work" />
+          <div className="image2">
+            <img src="/images/freelancer.jpg" alt="work" />
           </div>
           <div className="workDescription1">
             <h3>Freelance Frontend Developer</h3>
