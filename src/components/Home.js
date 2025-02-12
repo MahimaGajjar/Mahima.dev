@@ -47,7 +47,7 @@ export const HomePage = () => {
       new TypeWriter(txtElement, words, wait);
     }
   }, []);
-
+  
   const handleDownload = () => {
     const resumeUrl = "/MahimaGajjarResume.pdf";
 

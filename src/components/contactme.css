@@ -104,10 +104,9 @@ button:hover {
   padding: 30px;
 }
 
-
 .btn {
   width: 60px;
-  height: 60px; 
+  height: 60px;
   border-radius: 50%;
   background: #bbbbbb;
   position: relative;
@@ -124,10 +123,9 @@ button:hover {
   width: 100%;
 }
 
-
 .btn__sq {
-  width: 30px; 
-  height: 20px; 
+  width: 30px;
+  height: 20px;
   background: #ffffff;
   position: absolute;
   top: 55%;
@@ -152,8 +150,8 @@ button:hover {
 .btn__sq::after {
   content: "";
   position: absolute;
-  width: 12px; 
-  height: 12px; 
+  width: 12px;
+  height: 12px;
   background: #bbbbbb;
   bottom: -6px;
   left: 50%;
