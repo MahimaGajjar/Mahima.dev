@@ -6,6 +6,9 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const ContactMe = () => {
+  const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  const userID = process.env.REACT_APP_EMAILJS_USER_ID;
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,21 +25,26 @@ export const ContactMe = () => {
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
-      dropdown_value: formData.interested_in,
+      interested_in: formData.interested_in,
       message: formData.message,
     };
     emailjs
       .send(
-        "service_9603", // Replace with your EmailJS Service ID
-        "template_nh1krvm", // Replace with your EmailJS Template ID
+        serviceID, // Replace with your EmailJS Service ID
+        templateID, // Replace with your EmailJS Template ID
         templateParams,
-        "M3J2zeYaKC6kv7bjN" // Replace with your EmailJS Public Key
+        userID // Replace with your EmailJS Public Key
       )
       .then(
         (response) => {
           console.log("Email sent successfully!", response);
           setSuccess("Email sent successfully!");
-          setFormData({ name: "", email: "", interested_in: "Interested In", message: "" });
+          setFormData({
+            name: "",
+            email: "",
+            interested_in: "",
+            message: "",
+          });
           toast.success("Email sent successfully!");
         },
         (error) => {
@@ -49,7 +57,7 @@ export const ContactMe = () => {
 
   return (
     <>
-      {/* <div className="background"> */}
+      <div className="background">
       <div className="container">
         <div className="heading">
           <h2>Let's Get in Sync!</h2>
@@ -120,7 +128,7 @@ export const ContactMe = () => {
           </div>
         </div>
       </div>
-      {/* </div> */}
+      </div>
     </>
   );
 };
