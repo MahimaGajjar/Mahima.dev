@@ -6,6 +6,24 @@
   width: 100vw;
   gap: 5px;
 }
+@keyframes shrinkExpand {
+  0% {
+    transform: scale(1); /* Start minimized */
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5); /* Midway animation */
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1); /* Full size */
+    opacity: 1;
+  }
+}
+
+.home-container div {
+  animation: shrinkExpand 0.8s ease-in-out; /* Apply to all grid items */
+}
 .workexperience {
   grid-row: 1/5;
   grid-column: 1/3;

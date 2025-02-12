@@ -61,7 +61,7 @@ export const HomePage = () => {
   };
   return (
     <>
-      <div className="container">
+      <div className="container home-container">
         <div className="workexperience">
           <Link to="/workexperience">
             <div className="WEheading-box">
