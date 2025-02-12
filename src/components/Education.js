@@ -3,6 +3,7 @@ import "./education.css";
 
 export const Education = () => {
   return (
+    <div className="background">
     <div className="container">
       <div className="masters">
         <div class="card">
@@ -107,7 +108,7 @@ export const Education = () => {
             <p>
               I completed my elementary education at Rajkot's Masoom English
               Medium School. I then finished my education at Krishna English
-              Medium School in Rajkot for my eleventh and twelfth grades.
+              Medium School in Rajkot for my eleventh and twelth grades.
             </p>
             <span class="more">Mouse over the card for more info</span>
           </div>
@@ -120,6 +121,7 @@ export const Education = () => {
           </a>
         </div>
       </div>
+    </div>
     </div>
   );
 };

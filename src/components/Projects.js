@@ -48,10 +48,9 @@ export const Projects = () => {
 
       <div className="title">
         <a href="/" className="titleContent">
-        <article>
-
-          <h1 >Projects</h1>
-        </article>
+          <article>
+            <h1>Projects</h1>
+          </article>
         </a>
       </div>
 

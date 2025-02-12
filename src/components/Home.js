@@ -1006,7 +1006,7 @@ export const HomePage = () => {
               viewBox="0 0 455 256"
               cached="false"
               width="500"
-              height="250"
+              height="220"
             >
               <g transform="translate(57.250088 32.050721)">
                 <g clip-path="url(#ewEtQUf14pr6)">
@@ -1307,7 +1307,7 @@ export const HomePage = () => {
               viewBox="0 0 455 256"
               cached="false"
               width="500"
-              height="219"
+              height="200"
               // xmlns:bx="https://boxy-svg.com"
             >
               <defs>
