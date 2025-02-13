@@ -15,7 +15,7 @@ export const ContactMe = () => {
     interested_in: "",
     message: "",
   });
-  const [success, setSuccess] = useState(null);
+  const [setSuccess] = useState(null);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
