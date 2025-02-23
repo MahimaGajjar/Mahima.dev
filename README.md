@@ -1,5 +1,7 @@
 Hi there 👋, I'm Mahima Gajjar, a passionate self-taught Software Engineer. You are exploring my personal website repository. The website is built with React JS and hosted on Netlify.
 
+Take a Look 👉 https://mahimadev.netlify.app/
+
 
 
 
