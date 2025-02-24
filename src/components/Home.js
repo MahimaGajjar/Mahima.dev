@@ -63,13 +63,13 @@ export const HomePage = () => {
     <>
       <div className="container home-container">
         <div className="workexperience">
-          <Link to="/workexperience">
+          <Link to="/workexperience" class="link">
             <div className="WEheading-box">
               <h2>Work Experience</h2>
             </div>
             <svg
               id="e68ZndEqcxF1"
-              className="w-full lg:absolute bottom-0"
+              className="svg-container"
               viewBox="0 0 455 512"
               cached="false"
               width="455"
@@ -996,13 +996,13 @@ export const HomePage = () => {
           </Link>
         </div>
         <div className="projects">
-          <a href="/projects" class="project-link">
+          <a href="/projects" class="link">
             <div className="Projectheading-box">
               <h2>Projects</h2>
             </div>
             <svg
               id="ewEtQUf14pr1"
-              className="w-full lg:absolute bottom-0"
+              className="projectsvg-container"
               viewBox="0 0 455 256"
               cached="false"
               width="500"
@@ -1296,13 +1296,13 @@ export const HomePage = () => {
           </a>
         </div>
         <div className="education">
-          <a href="/education" class="proj">
+          <a href="/education" class="link">
             <div className="educationheading-box">
               <h2>Education</h2>
             </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-full lg:absolute bottom-0"
+              className="education-svg"
               id="eUbxc2KBHAG1"
               viewBox="0 0 455 256"
               cached="false"
@@ -2319,12 +2319,12 @@ export const HomePage = () => {
           </p>
         </div>
         <div className="contactme">
-          <Link to="/contactme">
+          <Link to="/contactme" class="link">
             <div className="contactmeheading-box">
               <h2>ContactMe</h2>
             </div>
             <svg
-              className="w-full h-full lg:absolute bottom-0"
+              className="contactme-svg"
               id="ejQcAnIEep71"
               viewBox="0 0 341 341"
               shape-rendering="geometricPrecision"
@@ -2707,7 +2707,7 @@ export const HomePage = () => {
             <h2>Resume</h2>
           </div>
           <svg
-            className="w-full lg:absolute bottom-0"
+            className="resume-svg"
             id="eGNsHDgmMvZ1"
             viewBox="0 0 303 256"
             cached="false"
@@ -2871,6 +2871,7 @@ export const HomePage = () => {
         </div>
         <div className="socialmedia">
           <svg
+            class="social-svg"
             id="ecfYqkDzjoQ1"
             viewBox="0 0 300 300"
             cached="true"
@@ -3062,7 +3063,7 @@ export const HomePage = () => {
             shapeRendering="geometricPrecision"
             textRendering="geometricPrecision"
             cached="false"
-            className="w-full h-full"
+            class="extra-svg"
             width="150"
             height="150" // Adjust size as needed
           >

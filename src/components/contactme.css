@@ -4,7 +4,7 @@
   grid-template-rows: repeat(6, 1fr);
   height: 100dvh;
   width: 100dvw;
-  gap: 5px;
+  /* gap: 5px; */
 }
 
 .heading {
