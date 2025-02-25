@@ -2,7 +2,7 @@ import React from "react";
 import "./workexperience.css";
 export const WorkExperience = () => {
   return (
-     <div className="background">
+    <div className="background">
       <div className="container">
         <div className="col col1">
           <div className="image">
@@ -37,7 +37,7 @@ export const WorkExperience = () => {
         </div>
 
         <div className="titles">
-          <a href="/" >
+          <a href="/">
             <article>
               <h1>Work Experience</h1>
             </article>
@@ -73,7 +73,7 @@ export const WorkExperience = () => {
           </div>
         </div>
       </div>
-     </div>
+    </div>
   );
 };
 

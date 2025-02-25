@@ -73,7 +73,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  
 }
 .col1:hover {
   transform: translateY(-0.5rem) scale(1.0125);
@@ -261,50 +260,50 @@ article {
 }
 
 @media (max-width: 1024px) {
-  .titles{
+  .titles {
     grid-row: 1/1;
     grid-column: 2/6;
     margin-top: 10px;
   }
-.col1{
-  grid-row: 2/4;
-  grid-column: 1/7;
-  margin-top: 0px;
-  justify-content:start;
-  text-align: start;
-}
-.col2{
-  grid-row: 4/6;
-  grid-column: 1/7;
-  margin-top: 0px;
-  justify-content:start;
-  text-align: start;  
-}
-.image,
-.image2 {
-  width: 200px;
-  height: 120px;
-  margin-top: 5px;
-}
-.workDescription1 p{
-  margin-bottom: 5px;
-}
-.workDescription1 ul{
-  margin-bottom: 20px;
-}
-.workDescription1 li{
-  font-size: 1rem;
-}
-.image2{
-  width: 0px;
-  height: 0px;
-  margin-left: 50px;
-}
-.image2 img{
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
+  .col1 {
+    grid-row: 2/4;
+    grid-column: 1/7;
+    margin-top: 0px;
+    justify-content: start;
+    text-align: start;
+  }
+  .col2 {
+    grid-row: 4/6;
+    grid-column: 1/7;
+    margin-top: 0px;
+    justify-content: start;
+    text-align: start;
+  }
+  .image,
+  .image2 {
+    width: 200px;
+    height: 120px;
+    margin-top: 5px;
+  }
+  .workDescription1 p {
+    margin-bottom: 5px;
+  }
+  .workDescription1 ul {
+    margin-bottom: 20px;
+  }
+  .workDescription1 li {
+    font-size: 1rem;
+  }
+  .image2 {
+    width: 0px;
+    height: 0px;
+    margin-left: 50px;
+  }
+  .image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
 }
 @media (max-width: 540px) {
   .container {
@@ -315,36 +314,37 @@ article {
     grid-column: 2 / 6;
     margin-top: 10px;
   }
-  
+
   article {
     font-size: clamp(14px, 3vw, 18px);
   }
-.workDescription1 p{
-  font-size: 10px;
-}
-.workDescription1 h3{
-  font-size: 11px;
-  margin-bottom: 2px;
-}
-.workDescription1 ul{
-  margin-bottom: 20px;
-}
-.workDescription1 li{
-  font-size: 10px;
-}
-  .col1, .col2 {
+  .workDescription1 p {
+    font-size: 10px;
+  }
+  .workDescription1 h3 {
+    font-size: 11px;
+    margin-bottom: 2px;
+  }
+  .workDescription1 ul {
+    margin-bottom: 20px;
+  }
+  .workDescription1 li {
+    font-size: 10px;
+  }
+  .col1,
+  .col2 {
     grid-row: auto;
     grid-column: 1 / 7;
     margin: 10px 20px;
     padding: 10px 15px;
   }
 
-  .image, .image2 {
+  .image,
+  .image2 {
     width: 150px;
     height: auto;
     margin-top: 10px;
     display: none; /* Hide only if necessary */
-
   }
 
   .image2 {
@@ -358,5 +358,4 @@ article {
   .workDescription1 p {
     margin-bottom: 5px;
   }
-
 }
