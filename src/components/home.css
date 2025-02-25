@@ -22,7 +22,7 @@
 }
 
 .home-container div {
-  animation: shrinkExpand 0.8s ease-in-out; 
+  animation: shrinkExpand 0.8s ease-in-out;
 }
 .workexperience {
   grid-row: 1/5;
@@ -109,7 +109,7 @@
   padding: 8px 15px;
   z-index: 2;
 }
-.education-svg{
+.education-svg {
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -260,19 +260,23 @@
 
 @media (max-width: 1024px) {
   .container {
-    gap: 0px;
+    gap: 2px;
   }
 
   .name {
     grid-column: 1 / 7;
     grid-row: 1 / 1;
-    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
   }
 
   .workexperience {
     grid-column: 1 / 7;
     grid-row: 2 / 3;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
     position: relative;
   }
   .svg-container {
@@ -283,8 +287,6 @@
   }
   .WEheading-box {
     margin: 0px;
-    background-color: var(--primary-color);
-    color: white;
     padding: 10px 20px;
     position: absolute;
     right: 100px;
@@ -294,14 +296,14 @@
   .projects {
     grid-column: 1 / 7;
     grid-row: 3 / 4;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: relative;
   }
   .Projectheading-box {
     position: absolute;
     bottom: 40%;
     left: 220px;
-    background-color: var(--primary-color);
     color: white;
     padding: 10px 20px;
   }
@@ -313,7 +315,8 @@
   .education {
     grid-column: 1 / 7;
     grid-row: 4 / 5;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: relative;
   }
   .educationheading-box {
@@ -328,7 +331,7 @@
   }
   .education-svg {
     margin-top: -1px;
-    width:500px;
+    width: 500px;
     top: 52%;
     left: 40%;
     transform: translate(-50%, -50%);
@@ -336,7 +339,8 @@
   .resume {
     grid-column: 1 / 4;
     grid-row: 5 / 6;
-    margin: 5px;
+    /* margin-right: 5px; */
+    margin-top: 5px;
     position: relative;
   }
   .resume-svg {
@@ -352,8 +356,11 @@
   .contactme {
     grid-column: 4 / 7;
     grid-row: 5 / 6;
-    margin: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
     position: relative;
+    margin-bottom: 5px;
+
   }
   .contactme-svg {
     margin-top: 50px;
@@ -368,13 +375,15 @@
   .socialmedia {
     grid-column: 1 / 5;
     grid-row: 6 / 7;
-    margin: 5px;
+    margin-left: 5px;
+    /* margin-right: 5px; */
   }
 
   .extra {
     grid-column: 5 / 7;
     grid-row: 6 / 7;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: relative;
   }
   .extra-svg {
@@ -386,7 +395,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .container {
     gap: 2px;
   }
@@ -395,52 +404,63 @@
     grid-column: 1 / 7;
     grid-row: 1 / 2;
     margin-top: 3px;
-    /* margin-bottom: 3px; */
     margin-left: 5px;
     margin-right: 5px;
   }
-.main-text{
-  font-size: 15px;
-  margin-top: 0px;
-  padding: 5px;
-  text-align: center;
-}
-.sub-text{
-  font-size: 10px;
-  margin-top: 5px;
-  padding: 5px;
-  text-align: center;
-}
+  .main-text {
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+  }
+  .sub-text {
+    font-size: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+  }
   .workexperience {
     margin-left: 5px;
-    margin-right: 5px;    
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center; 
+    position: relative;
   }
   .svg-container {
     max-width: 130px;
-    margin-left: -50px;
+    margin-left: -70px;
     margin-top: -10px;
     height: 150px;
+    position: absolute;
+
   }
   .WEheading-box {
     padding: 5px 5px;
-    right: 50px;
+    right: 60px;
     font-size: 8px;
   }
   .projects {
     margin-left: 5px;
-    margin-right: 5px;    
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
   }
   .Projectheading-box {
     bottom: 35%;
-    left: 80px;
+    left: 90px;
     font-size: 8px;
     padding: 5px 5px;
   }
   .projectsvg-container {
     max-width: 500px;
     max-height: 90px;
-    margin-left: -10px;
-    margin-top: 5px;
+    margin-left: 0px;
+    margin-top: 5%;
   }
   .education {
     margin-left: 5px;
@@ -456,15 +476,15 @@
   }
   .education-svg {
     max-width: 170px;
-    margin-left: -10px;
-    margin-top: -00px;
     height: 170px;
+    left: 10%;
+    transform: translateY(-49%);
   }
   .resume {
     margin-left: 5px;
-    margin-right: 5px; 
+    margin-right: 0px;
   }
-  .resumeheading-box{
+  .resumeheading-box {
     padding: 5px 5px;
     top: 20%;
     font-size: 8px;
@@ -474,17 +494,17 @@
     margin-top: 50px;
     position: absolute;
     left: 30%;
-    top: -1%;
+    top: 6%;
     transform: translateY(-50%);
     max-width: 500px;
     max-height: 200px;
   }
-  .resume h6{
+  .resume h6 {
     font-size: 8px;
   }
   .contactme {
-    margin-left: 5px;
-    margin-right: 5px; 
+    /* margin-left: 5px; */
+    margin-right: 5px;
   }
   .contactme-svg {
     margin-top: 40px;
@@ -494,7 +514,7 @@
     max-width: 130px;
     max-height: 550px;
   }
-  .contactmeheading-box{
+  .contactmeheading-box {
     padding: 5px 5px;
     top: 20%;
     font-size: 8px;
@@ -503,14 +523,14 @@
 
   .socialmedia {
     margin-left: 5px;
-    margin-right: 5px; 
-    position: relative; 
+    margin-right: 0px;
+    position: relative;
   }
 
-  .social-svg{
+  .social-svg {
     position: absolute;
     top: 50%;
-    left:20px;
+    left: 20px;
     transform: translateY(-50%);
     max-width: 70px;
     max-height: 100px;
@@ -519,7 +539,7 @@
     width: 20px;
     height: 40px;
   }
-  .icons{
+  .icons {
     position: absolute;
     top: 50%;
     left: 100px;
@@ -528,7 +548,7 @@
   }
   .extra {
     margin-left: 5px;
-    margin-right: 5px;   
+    margin-right: 5px;
   }
   .extra-svg {
     position: absolute;
@@ -538,7 +558,12 @@
     max-height: 100px;
   }
 }
-
+@media (max-width: 390px) {
+  .svg-container {
+    max-width: 250px; 
+    margin-left: -50px; 
+  }
+}
 /* Workxperience */
 /* First group box */
 #e68ZndEqcxF2_ts {
