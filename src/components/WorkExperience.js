@@ -37,7 +37,7 @@ export const WorkExperience = () => {
         </div>
 
         <div className="titles">
-          <a href="/" className="titleContent">
+          <a href="/" >
             <article>
               <h1>Work Experience</h1>
             </article>
