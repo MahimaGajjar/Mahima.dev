@@ -229,9 +229,19 @@ article {
   }
   .image,
   .image2 {
-    width: 200px;
+    display: none;
+    /* width: 200px;
     height: 120px;
-    margin-top: 5px;
+    margin-top: 5px; */
+  }
+  .workDescription1 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    
   }
   .workDescription1 p {
     margin-bottom: 5px;
@@ -265,6 +275,14 @@ article {
 
   article {
     font-size: clamp(14px, 3vw, 18px);
+  }
+  .workDescription1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
   }
   .workDescription1 p {
     font-size: 10px;
