@@ -178,3 +178,50 @@ button:hover {
 .btn:hover .btn__sq::after {
   opacity: 0;
 }
+@media (max-width: 1024px) {
+  .heading h2 {
+    font-size: 32px;
+  }
+
+  .heading p {
+    font-size: 14px;
+  }
+
+  .form {
+    max-width: 500px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 540px) {
+  .heading h2 {
+    font-size: 28px;
+  }
+
+  .heading p {
+    font-size: 12px;
+  }
+
+  .form {
+    max-width: 90%;
+  }
+
+  button {
+    max-width: 100%;
+  }
+
+  .navigation {
+    top: 10px;
+    right: 10px;
+  }
+
+  .btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .btn__sq {
+    width: 16px;
+    height: 12px;
+  }
+}

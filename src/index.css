@@ -72,3 +72,8 @@ code {
   --primary-color: #22577a;
   --primary-font-color: rgb(255, 255, 255);
 }
+@media (max-width: 1024px) {
+  .circle-cursor {
+    display: none;
+  }
+}
