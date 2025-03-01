@@ -81,7 +81,8 @@ export const Education = () => {
               <h1>School</h1>
               <p>
                 I completed my elementary education at Rajkot's Masoom English
-                Medium School.  I completed my eleventh and twelth grades at Krishna English Medium School in Rajkot after that.
+                Medium School. I completed my eleventh and twelth grades at
+                Krishna English Medium School in Rajkot after that.
               </p>
               <span class="more">Mouse over the card for more info</span>
             </div>
