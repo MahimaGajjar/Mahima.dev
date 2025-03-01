@@ -6,7 +6,6 @@
   width: 100vw;
 }
 
-
 .col1,
 .col2 {
   grid-row: 1 / 7;
@@ -27,11 +26,11 @@
   box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
 }
 .col1 {
-  grid-column: 1 / 3; 
+  grid-column: 2 / 4;
 }
 
 .col2 {
-  grid-column: 5 / 7;
+  grid-column: 4 / 6;
 }
 .image,
 .image2 {
@@ -237,11 +236,10 @@ article {
   .workDescription1 {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 50px;
-    
   }
   .workDescription1 p {
     margin-bottom: 5px;
@@ -276,10 +274,10 @@ article {
   article {
     font-size: clamp(14px, 3vw, 18px);
   }
-  .workDescription1{
+  .workDescription1 {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 10px;
