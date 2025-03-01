@@ -4,7 +4,6 @@
   grid-template-rows: repeat(6, 1fr);
   height: 100dvh;
   width: 100dvw;
-  /* margin: 5px; */
 }
 
 .project1 {
@@ -131,7 +130,7 @@
   border-radius: 10px;
 }
 .title h1 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 @media (max-width: 1024px) {
