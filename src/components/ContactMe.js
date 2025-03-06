@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contactme.css";
-import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -9,50 +8,47 @@ export const ContactMe = () => {
   const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
   const templateID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
   const userID = process.env.REACT_APP_EMAILJS_USER_ID;
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     interested_in: "",
     message: "",
   });
-  const [setSuccess] = useState(null);
+
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true); // Show loader
+
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
       interested_in: formData.interested_in,
       message: formData.message,
     };
+
     emailjs
-      .send(
-        serviceID, // Replace with your EmailJS Service ID
-        templateID, // Replace with your EmailJS Template ID
-        templateParams,
-        userID // Replace with your EmailJS Public Key
-      )
+      .send(serviceID, templateID, templateParams, userID)
       .then(
         (response) => {
           console.log("Email sent successfully!", response);
-          setSuccess("Email sent successfully!");
-          setFormData({
-            name: "",
-            email: "",
-            interested_in: "",
-            message: "",
-          });
           toast.success("Email sent successfully!");
+          setFormData({ name: "", email: "", interested_in: "", message: "" });
         },
         (error) => {
           console.error("Error sending email:", error);
-          setSuccess("Error sending email. Please try again.");
           toast.error("Error sending email. Please try again.");
         }
-      );
+      )
+      .finally(() => {
+        setLoading(false); // Hide loader after response
+      });
   };
 
   return (
@@ -96,7 +92,7 @@ export const ContactMe = () => {
                     <label>Interested in:</label>
                     <select
                       name="interested_in"
-                      value={formData.country}
+                      value={formData.interested_in}
                       onChange={handleChange}
                       required
                     >
@@ -116,7 +112,9 @@ export const ContactMe = () => {
                     ></textarea>
                   </div>
 
-                  <button type="submit">Submit</button>
+                  <button type="submit" disabled={loading}>
+                    {loading ? <span className="loader"></span> : "Submit"}
+                  </button>
                 </form>
               </div>
             </div>

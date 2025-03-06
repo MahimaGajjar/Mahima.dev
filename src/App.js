@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/Home";
 import ContactMe from "./components/ContactMe";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
 import Projects from "./components/Projects";
-import { useEffect } from "react";
+import Loader from "./components/Loader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000); 
+  }, []);
   useEffect(() => {
     const cursor = document.createElement("div");
     cursor.classList.add("circle-cursor");
@@ -34,7 +40,9 @@ function App() {
   }, []);
   return (
     <BrowserRouter>
-      <div>
+      {loading ? (
+        <Loader />
+      ) : (
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/contactme" element={<ContactMe />} />
@@ -42,7 +50,7 @@ function App() {
           <Route path="/workexperience" element={<WorkExperience />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
-      </div>
+      )}
     </BrowserRouter>
   );
 }
